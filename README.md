@@ -14,7 +14,7 @@ This repository archives the exact code baseline and deterministic mathematical 
 *   **`cosmic_glue_v42_codebase.zip`**: Contains the complete computational engine, including the functional Python validation scripts and accelerated JAX/CuPy code configurations used to build the physical-sector Hamiltonians and process the automated Structure-Driven Inversion (SDI) search loops.
 *   **`v42_jax_validation_outputs.zip`**: Contains the un-edited high-resolution output ledger receipts. This package holds the raw CSV data sweeps, off-diagonal ETH regression datasets, and summary JSON files verifying the exact metrics and thermal plateaus reported above.
 
-## 📊 The Conversion Ledger
+##  The Conversion Ledger
 
 ```text
    [ EINSTEIN'S TEXTBOOK ]               [ THE QUANTUM LEDGER ]
