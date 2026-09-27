@@ -3,12 +3,12 @@
 
 An open-source, prompt-driven computational translation nexus and testing gauntlet for emergent horizon phase transitions. 
 
-## 🧬 Algorithmic Lineage & Attribution
+##  Algorithmic Lineage & Attribution
 The name **gwixpy** functions as an algorithmic acronym permanently honoring the four distinct scientific pioneers whose core mathematical principles are integrated inside this framework:
 * **G & W:** The subatomic spin-lattice gravity canvas pioneered by **Zheng-Chuan Gu and Xiao-Gang Wen**.
 * **X & P:** The geometric saddle-node fold bifurcation theorems of **Yu-Cun Xie and Vaishak Prasad** (September 2026).
 
-## 📦 Repository Structure & Verification Artifacts
+##  Repository Structure & Verification Artifacts
 This repository archives the exact code baseline and deterministic mathematical receipts for this research branch. To replicate or audit these findings, inspect the two preserved packages:
 
 *   **`cosmic_glue_v42_codebase.zip`**: Contains the complete computational engine, including the functional Python validation scripts and accelerated JAX/CuPy code configurations used to build the physical-sector Hamiltonians and process the automated Structure-Driven Inversion (SDI) search loops.
@@ -30,7 +30,7 @@ This repository archives the exact code baseline and deterministic mathematical 
    α = 0.5 (Xie-Prasad 2026)             H(λ) = U H_0 U† (Love = 0.0000)
 ```
 
-## 🔍 Verified Metrics & Quantified Falsification
+##  Verified Metrics & Quantified Falsification
 This repository preserves a deterministic high-resolution Structure-Driven Inversion (SDI) run spanning 1,166,030 exact physical-sector evaluations. The structural framework balances perfectly to machine precision, while delivering an honest, un-cheated structural failure of the minimal spinless/SU(2) K4 models:
 
 * **TEGR/HDA Constraint Leakage:** epsilon_C = 0.0000000000 (Watertight)
@@ -39,13 +39,13 @@ This repository preserves a deterministic high-resolution Structure-Driven Inver
 * **Free-Fit Fold Bifurcation Exponent:** FAILED (Symmetric branch separation collapsed to 1.36e-08)
 * **Off-Diagonal Matrix Element Scaling:** FAILED (ETH regression p = 0.105, R² = 0.0048)
 
-## 🎬 Media Inspiration
+##  Media Inspiration
 Thanks to John Michael Godier for his YouTube essays. His videos were the original spark that began my thought process.
 
-## ⚖️ Joint Ownership & License Notice
+##  Joint Ownership & License Notice
 This code, the matrix datasets, and the JAX/XLA testing infrastructure were compiled via interactive prompt-driven loops with frontier AI systems. The scaffolding is released openly to the scientific community under the MIT License so that specialized departments may jointly run the required distributed finite-size scaling sweeps ($K_5, K_6$) and co-author the definitive thermodynamic derivation.
 
-## 🧬 The Unified Hall of Creators: Direct & Indirect Contributions
+##  The Unified Hall of Creators: Direct & Indirect Contributions
 
 The **GWXP** framework functions as an independent, computational loom. While the strategic guidance and information budgets were driven by human direction, the underlying mathematical pillars are anchored directly to the distinct breakthroughs of the following 12 global authorities. We explicitly acknowledge their contributions to the GWXP Bridge:
 
@@ -77,5 +77,5 @@ The **GWXP** framework functions as an independent, computational loom. While th
 *   **Dr. Donald Marolf (University of California, Santa Barbara):** 
     Author of the essential structural warnings regarding kinematic non-locality in emergent gravity. His literature functions as the primary safety filter in our testing gauntlet, forcing the pipeline to verify whether its microscopic particle layout satisfies physical locality bounds in the infrared limit.
 
-## ⚠️ Computational Disclaimer
+##  Computational Disclaimer
 Portions of this matrix-assembly codebase, structural basis mappings, and parallelized JAX configurations were generated and optimized using frontier large language models. While the underlying physical constraints, gauge symmetries, and data tracking are structurally audited, automated code translations can introduce mathematical artifacts, formatting anomalies, or indexing errors. The repository is provided entirely "as-is" under the MIT License to serve as an open infrastructure gauntlet for multi-university collaborative verification.
