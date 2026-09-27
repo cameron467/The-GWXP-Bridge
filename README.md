@@ -1,4 +1,4 @@
-# gwixpy (pronounced *gwɪks-pi*) — The GWXP Bridge Phase Archive
+# The GWXP Bridge Phase Archive
 
 An un-cheatable, machine-precision translation bridge proving that continuous, non-bulging Einsteinian spacetime geometries can be mathematically woven out of discrete, non-Abelian quantum codes without dropping a single line of cosmic data (\(\epsilon_C = 0.0000000000\)).
 
