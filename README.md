@@ -14,7 +14,6 @@ This repository archives the exact code baseline and deterministic mathematical 
 *   **`cosmic_glue_v42_codebase.zip`**: Contains the complete computational engine, including the functional Python validation scripts and accelerated JAX/CuPy code configurations used to build the physical-sector Hamiltonians and process the automated Structure-Driven Inversion (SDI) search loops.
 *   **`v42_jax_validation_outputs.zip`**: Contains the un-edited high-resolution output ledger receipts. This package holds the raw CSV data sweeps, off-diagonal ETH regression datasets, and summary JSON files verifying the exact metrics and thermal plateaus reported above.
 
-
 ## 📊 The Conversion Ledger
 
 ```text
@@ -32,7 +31,7 @@ This repository archives the exact code baseline and deterministic mathematical 
 ```
 
 ## 🔍 Verified Metrics & Quantified Falsification
-This repository preserves a deterministic high-resolution Structure-Driven Inversion (SDI) run spanning 1,166,030 exact physical-sector evaluations. The bookkeeping framework balances perfectly to machine precision, while delivering an honest, un-cheated structural failure of the minimal spinless/SU(2) K4 models:
+This repository preserves a deterministic high-resolution Structure-Driven Inversion (SDI) run spanning 1,166,030 exact physical-sector evaluations. The structural framework balances perfectly to machine precision, while delivering an honest, un-cheated structural failure of the minimal spinless/SU(2) K4 models:
 
 * **TEGR/HDA Constraint Leakage:** epsilon_C = 0.0000000000 (Watertight)
 * **Quantum Unitarity Error:** ||U†U - I|| = 5.36e-15 (Preserved)
@@ -44,11 +43,11 @@ This repository preserves a deterministic high-resolution Structure-Driven Inver
 Thanks to John Michael Godier for his YouTube essays. His videos were the original spark that began my thought process.
 
 ## ⚖️ Joint Ownership & License Notice
-This code, the 120x120 matrix datasets, and the JAX/XLA testing infrastructure were compiled via interactive prompt-driven loops with frontier AI systems. The scaffolding is released openly to the scientific community under the MIT License so that specialized departments may jointly run the required distributed finite-size scaling sweeps ($K_5, K_6$) and co-author the definitive thermodynamic derivation.
+This code, the matrix datasets, and the JAX/XLA testing infrastructure were compiled via interactive prompt-driven loops with frontier AI systems. The scaffolding is released openly to the scientific community under the MIT License so that specialized departments may jointly run the required distributed finite-size scaling sweeps ($K_5, K_6$) and co-author the definitive thermodynamic derivation.
 
 ## 🧬 The Unified Hall of Creators: Direct & Indirect Contributions
 
-The **GWXP** framework functions as an independent, computational loom. While the strategic guidance and accounting-style information budgets were driven by human direction, the underlying mathematical pillars are anchored directly to the distinct breakthroughs of the following 12 global authorities. We explicitly acknowledge their contributions to the GWXP Bridge:
+The **GWXP** framework functions as an independent, computational loom. While the strategic guidance and information budgets were driven by human direction, the underlying mathematical pillars are anchored directly to the distinct breakthroughs of the following 12 global authorities. We explicitly acknowledge their contributions to the GWXP Bridge:
 
 ### 1. The Core Geometric Canvas (The GWXP Pioneers)
 *   **Dr. Zheng-Chuan Gu (Chinese University of Hong Kong) & Dr. Xiao-Gang Wen (MIT):** 
@@ -74,6 +73,9 @@ The **GWXP** framework functions as an independent, computational loom. While th
 
 ### 5. Boundary Algebra & Kinematic Safeguards
 *   **Dr. William Donnelly (Lawrence Berkeley National Laboratory) & Dr. Aron Wall (University of Cambridge):** 
-    Masters of gravitational corner algebras, surface charges, and edge modes. Their literature demonstrates how bulk gauge symmetries naturally transform into physical geometric charges at a boundary surface cut, explaining exactly where the horizon boost/area response terms live in the quantum ledger.
+    Masters of gravitational corner algebras, surface charges, and edge modes. Their literature demonstrates how bulk gauge symmetries naturally transform into physical geometric charges at a boundary surface cut, explaining exactly where the horizon boost/area response terms live in the quantum landscape.
 *   **Dr. Donald Marolf (University of California, Santa Barbara):** 
     Author of the essential structural warnings regarding kinematic non-locality in emergent gravity. His literature functions as the primary safety filter in our testing gauntlet, forcing the pipeline to verify whether its microscopic particle layout satisfies physical locality bounds in the infrared limit.
+
+## ⚠️ Computational Disclaimer
+Portions of this matrix-assembly codebase, structural basis mappings, and parallelized JAX configurations were generated and optimized using frontier large language models. While the underlying physical constraints, gauge symmetries, and data tracking are structurally audited, automated code translations can introduce mathematical artifacts, formatting anomalies, or indexing errors. The repository is provided entirely "as-is" under the MIT License to serve as an open infrastructure gauntlet for multi-university collaborative verification.
