@@ -1,6 +1,5 @@
-# The-GWXP-Bridge
-
-# GWXP (pronounced *gwɪks-pi*) — Version 4.2 Archive
+# The-GWXP-Bridge 
+(pronounced *gwɪks-pi*)
 
 An open-source, prompt-driven computational translation nexus and testing gauntlet for emergent horizon phase transitions. 
 
@@ -9,7 +8,7 @@ The name **gwixpy** functions as an algorithmic acronym permanently honoring the
 * **G & W:** The subatomic spin-lattice gravity canvas pioneered by **Zheng-Chuan Gu and Xiao-Gang Wen** [3.2].
 * **X & P:** The geometric saddle-node fold bifurcation theorems of **Yu-Cun Xie and Vaishak Prasad** (September 2026) [3.4].
 
-## 📊 The Conversion Ledger
+```text 📊 The Conversion Ledger
 
    [ EINSTEIN'S TEXTBOOK ]               [ THE QUANTUM LEDGER ]
    Smooth, Bending Geometry    ◄───────►  Choppy Information Pixels
@@ -22,7 +21,7 @@ The name **gwixpy** functions as an algorithmic acronym permanently honoring the
                 ▼                                       ▼
    Square-Root Fold Branch               Isospectral Code-Orbit Motion
    α = 0.5 (Xie-Prasad 2026)             H(λ) = U H_0 U† (Love = 0.0000)
-
+```
 ## 🔍 Verified Metrics & Quantified Falsification
 This repository preserves a deterministic high-resolution Structure-Driven Inversion (SDI) run spanning 1,166,030 exact physical-sector evaluations. The bookkeeping framework balances perfectly to machine precision, while delivering an honest, un-cheated structural failure of the minimal spinless/SU(2) K4 models [4.0]:
 
