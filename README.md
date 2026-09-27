@@ -55,7 +55,7 @@ This repository archives the exact code baseline and deterministic mathematical 
 * **`v42_jax_validation_outputs.zip`**: Contains the un-edited high-resolution output ledger receipts. This package holds the raw CSV data sweeps, off-diagonal ETH regression datasets, and summary JSON files verifying the exact metrics and thermal plateaus reported above.
 * **`K4_K8_SCALING.csv`**: Contains the raw, un-fitted high-precision numerical ledger data tracking the full sequence sweep.
 
-## 🧬 Direct Operational Metrics (V4.4 Homogeneous Sequence)
+## Direct Operational Metrics (V4.4 Homogeneous Sequence)
 Unlike early exploratory runs that were contaminated by background charge artifacts to close Gauss's Law on irregular topologies, the preserved V4.4 sequence utilizes a perfectly pristine, homogeneous microscopic material: two co-located SU(2) doublets per link, mapping to a symmetric spin-1 link layout with zero background charges across all system sizes. 
 
 The un-fitted tracking values for fixed unit detuning t=1 resolve as follows:
