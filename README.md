@@ -33,14 +33,15 @@ This repository preserves a deterministic high-resolution Structure-Driven Inver
 * **Off-Diagonal Matrix Element Scaling:** FAILED (ETH regression p = 0.105, R² = 0.0048) [4.0]
 
 ## 🎬 Media Inspiration
-I explicitly acknowledge the exploratory physics essays of John Michael Godier. His video deep-dives into digital physics, cosmic data processing limits, and informational horizons served as the primary spark that pushed me to question AI on structural bookkeeping errors in the columns of modern quantum gravity.
+Thanks to John Michael Godier for his YouTube essays. His videos were the original spark that began my thought process.
+
 
 ## ⚖️ Joint Ownership & License Notice
 This code, the 120x120 matrix datasets, and the JAX/XLA testing infrastructure were compiled via interactive prompt-driven loops with frontier AI systems [4.0]. The scaffolding is released openly to the scientific community under the MIT License so that specialized departments may jointly run the required distributed finite-size scaling sweeps ($K_5, K_6$) and co-author the definitive thermodynamic derivation [4.0].
 
 ## 🧬 The Unified Hall of Creators: Direct & Indirect Contributions
 
-The **gwixpy** framework functions as an independent, computational loom. While the strategic guidance and accounting-style information budgets were driven by human direction, the underlying mathematical pillars are anchored directly to the distinct breakthroughs of the following 11 global authorities. We explicitly glorify their life's work and institutional contributions:
+The **GWXP** framework functions as an independent, computational loom. While the strategic guidance and accounting-style information budgets were driven by human direction, the underlying mathematical pillars are anchored directly to the distinct breakthroughs of the following 12 global authorities. We explicitly aknowelede their contributions to the GWXP Bridge:
 
 ### 1. The Core Geometric Canvas (The GWXP Pioneers)
 *   **Dr. Zheng-Chuan Gu (Chinese University of Hong Kong) & Dr. Xiao-Gang Wen (MIT):** 
