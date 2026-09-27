@@ -69,6 +69,19 @@ The un-fitted tracking values for fixed unit detuning t=1 resolve as follows:
 
 The scaling trajectory demonstrates a sustained, three-size downward plunge past the K_5 threshold. While the effective pairwise exponents continue to oscillate (\(\gamma_{5\to6} \approx 1.5328\), \(\gamma_{6\to7} \approx 0.8173\), \(\gamma_{7\to8} \approx 1.3645\)) preventing a definitive universal power-law assignment, the sustained softening structure is strongly insulated against finite-N truncation artifacts. Relative residuals across the Conjugate Gradient static resolvent solves converged cleanly with an internal iteration overlap of 0.999999424.
 
+##  Active Analytical Boundaries and Open Structural Targets
+
+While the uniform V4.4 sequence confirms a real, collective finite-size softening trajectory that survives the removal of background artifacts, three specific analytical wires remain exposed. This repository preserves these metrics transparently to serve as direct collaborative targets for the community:
+
+1. **Oscillating Critical Exponent Regime:** The effective pairwise scaling metrics continue to bounce non-monotonically between steps ($\gamma_{5\to6} \approx 1.5328$, $\gamma_{6\to7} \approx 0.8173$, $\gamma_{7\to8} \approx 1.3645$). While the sustained downward plunge is clear, the system has not settled into a universal scale-invariant power law, identifying an active thermodynamic crossover mystery rather than a fixed universal exponent.
+2. **The Sector-Crossing Pole Barrier:** Susceptibility calculations across the $K_7$ and $K_8$ boundaries confirm that the soft response scales linearly as $\chi(t) \sim t^{-1}$. This behavior is characteristic of an exact $k=0 \leftrightarrow 1$ conserved sector-crossing pole. To verify a true macroscopic gravitational fold bridge matching the Xie-Prasad saddle-node theorems, the microscopic configuration must be altered to drive the response toward a non-linear geometric fold scaling of $\chi(t) \sim t^{-1/2}$.
+3. **K_8 Global Certification Threshold:** While $\sigma_{\rm soft}(8) = 0.138910256$ is numerically stable for the lowest currently checked physical candidate, the 1111 block has not been exhaustively computed across all 70 independent balanced degree assignments. This metric is explicitly defined as a validated local candidate minimum rather than a proven global theorem.
+
+### Current Computational Summary
+* **SOLVED:** Autonomous non-Abelian microscopic quantum link model $\Longrightarrow$ Authentic, collective finite-size thermodynamic softening.
+* **OPEN:** Microscopic Softening $\Longrightarrow$ Non-linear geometric fold $\Longrightarrow$ Local boundary capacity saturation $\Longrightarrow$ Verified V4.2 Macroscopic Bridge Phase.
+
+
 ## But what does it all suggest if you're not a scientist?
 
 If you are reading through this repository trying to understand what a human director and an automated AI engine actually discovered over a weekend sprint, let us translate the matrix algebra into pure, real-world clarity:
