@@ -15,13 +15,21 @@ zero static black-hole Love response may arise from isospectral code motion whil
 The project is intentionally organized as a falsification ledger. Ideas that fail are retained rather than silently removed.
 ---
 Evidence labels used in this repository
+
 To keep the speculative architecture separate from what has actually been shown, claims are tagged conceptually as:
+
 ESTABLISHED — standard result from existing physics/mathematics literature.
+
 DERIVED — algebra worked out within this project from stated assumptions.
+
 NUMERICAL — reproduced by explicit finite-matrix / matrix-free calculations with stored outputs.
+
 INFERRED — a structural connection suggested by the derived pieces but not yet generated autonomously by the microscopic model.
+
 OPEN — a missing calculation or theorem required to close the program.
+
 KILLED — a route explicitly falsified or demoted by algebra, numerics or a consistency check.
+
 The central purpose of the repository is to shrink the OPEN category.
 ---
 The complete hypothesis in one diagram
