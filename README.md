@@ -41,11 +41,11 @@ The project explicitly killed or demoted:
 information content as an independent gravitational charge;
 literal Planck-scale spacetime pixels;
 a scalar “capacity fraction” as the metric;
-the idea that finite local Hilbert dimension fixes (G);
+the idea that finite local Hilbert dimension fixes $G$;
 the idea that the perturbative gravitational Hilbert space must scale with area;
 exact commuting-projector gravity as a natural route to relativistic gravitons;
 exact continuum HDA on an ordinary finite point lattice;
-a simple (1/t) susceptibility pole as a black-hole fold.
+a simple $1/t$ susceptibility pole as a black-hole fold.
 Why this matters
 The surviving hypothesis is much narrower than the opening speculation.
 Instead of asking whether “information explains gravity”, the project now asks one technical question:
@@ -55,11 +55,12 @@ That is something that can actually fail.
 2. Showed that the two physical tensor modes can be represented finitely
 A symmetric spatial tensor has six components.
 The GR-like count is
-[
+$$
 6-3-1=2,
-]
+$$
+
 where the three spatial gauge directions and one scalar/normal constraint remove the unwanted geometry.
-Finite-(q) stabilizer-like regulators were built that realize this two-mode kinematic count.
+Finite-$q$ stabilizer-like regulators were built that realize this two-mode kinematic count.
 Why this matters
 Finite local Hilbert spaces are not automatically incompatible with spin-2 gravitational kinematics.
 The problem is not the raw number of finite degrees of freedom.
@@ -68,25 +69,29 @@ The problem is producing the correct protected phase and dynamics.
 3. Derived a strong rigidity result: once the constraint structure exists, the dynamics is pushed toward GR
 Starting from the most general parity-even two-derivative spatial operator, preserving the linearized gravitational constraint ideal forces the operator into the Fierz–Pauli / linearized-Einstein form.
 The general kinetic trace structure
-[
+$$
 (M\pi)_{ij}
 \alpha\pi_{ij}
 +
 \beta\delta_{ij}\pi
-]
+$$
+
 is forced to satisfy
-[
+$$
 \alpha+2\beta=0,
-]
+$$
+
 giving
-[
+$$
 \pi_{ij}-\frac12\delta_{ij}\pi.
-]
+$$
+
 That is the DeWitt kinetic combination.
 A parallel frame/torsion calculation selects the TEGR coefficient ray
-[
+$$
 (c_1,c_2,c_3)\propto(1,2,-4)
-]
+$$
+
 when the unwanted vector and antisymmetric frame modes are removed.
 Why this matters
 This changes the shape of the whole problem.
@@ -97,14 +102,16 @@ Once that phase is present, several independent consistency calculations sharply
 4. Found a finite exact analogue of refoliation closure
 The main V5 problem was the missing scalar/normal redundancy.
 I constructed finite schedule/update systems in which two local schedule moves do not commute, but their mismatch is exactly a spatial gauge transformation controlled by the frame:
-[
+$$
 W_xW_yW_x^{-1}W_y^{-1}
 G[Q].
-]
+$$
+
 The hand-made frame variable was then replaced by relational spin observables such as
-[
+$$
 \mathbf S_1\cdot\mathbf S_2.
-]
+$$
+
 The construction was further generalized so the gauge displacement can depend on an arbitrary finite frame operator.
 Why this matters
 The GR relation
@@ -116,30 +123,34 @@ That removed one of the biggest conceptual objections to the project.
 ---
 5. Reproduced the antisymmetric lapse structure in an exact finite group
 The normal-normal HDA contains
-[
+$$
 q^{ij}
 \left(
 N\partial_jM-M\partial_jN
 \right).
-]
+$$
+
 A finite edge model was constructed whose exact group commutator gives
-[
+$$
 Q^{ij}
 \left(
 N_xM_y-M_xN_y
 \right).
-]
+$$
+
 For neighbouring sites,
-[
+$$
 N_xM_y-M_xN_y
-]
+$$
+
 becomes
-[
+$$
 a\left(
 N\partial_jM-M\partial_jN
 \right)
 +O(a^2).
-]
+$$
+
 The finite law was also written as an exact associative group 2-cocycle.
 Why this matters
 The two most distinctive pieces of the normal-normal GR bracket now have explicit finite precursors:
@@ -148,42 +159,48 @@ the frame-dependent inverse-metric map.
 They are not being added only after the continuum limit is taken.
 ---
 6. Showed that the same finite frame can supply the inverse-metric structure
-Using a relational frame (E_i{}^a), define the cofactor frame
-[
+Using a relational frame $E_i{}^a$, define the cofactor frame
+$$
 C^i{}_a
 \frac12
 \epsilon^{ijk}
 \epsilon_{abc}
 E_j{}^bE_k{}^c.
-]
+$$
+
 An exact finite operator identity gives the densitized dual-frame relation.
 At the classical level,
-[
+$$
 C^i{}_aC^j{}_a
 \det(q),q^{ij}.
-]
+$$
+
 A separate invariant-tensor analysis showed that, at the lowest background-free parity-even polynomial order, this is essentially the unique available object with the required two upper spatial indices.
 Why this matters
 The inverse metric required by the HDA does not have to be introduced as a separate microscopic field.
 The same relational frame can supply both
-[
+$$
 q_{ij}
-]
+$$
+
 and
-[
+$$
 q^{ij}.
-]
+$$
+
 That is important if the theory is supposed to contain one geometry rather than several unrelated geometric structures.
 ---
 7. Gave nondegenerate geometry a finite operational meaning
-For a finite (3\times3) frame/inverse-metric matrix (Q) over (\mathbb Z_p), the common gauge-fixed space has dimension
-[
+For a finite $3\times3$ frame/inverse-metric matrix $Q$ over $\mathbb Z_p$, the common gauge-fixed space has dimension
+$$
 p^{3-\mathrm{rank}(Q)}.
-]
+$$
+
 Therefore
-[
+$$
 \mathrm{rank}(Q)=3
-]
+$$
+
 gives a unique gauge-invariant fiber, while degenerate frames produce extra invariant states.
 Why this matters
 “Nondegenerate geometry” is not just a continuum aesthetic condition in this construction.
@@ -193,24 +210,27 @@ That gives a concrete role to the defect sector:
 ---
 8. Built exact finite frame-momentum dynamics and recovered the DeWitt coefficient again
 Finite-dimensional systems cannot satisfy the literal canonical commutator
-[
+$$
 [q,p]=iI.
-]
+$$
+
 Instead, I used the finite Weyl/Clifford analogue.
-On a three-site (\mathbb Z_5) regulator, the most general tested trace shear
-[
+On a three-site $\mathbb Z_5$ regulator, the most general tested trace shear
+$$
 h_{ij}
 \mapsto
 h_{ij}
 +
 \pi_{ij}
 \lambda\delta_{ij}\pi
-]
-is a perfectly valid finite canonical transformation for every (\lambda).
+$$
+
+is a perfectly valid finite canonical transformation for every $\lambda$.
 But demanding preservation of the gravitational constraint ideal leaves only
-[
+$$
 \lambda=\frac12.
-]
+$$
+
 The same result appears again when the constraints are exponentiated into a finite stabilizer code: only the DeWitt shear preserves the protected code.
 Why this matters
 This is stronger than merely inserting the DeWitt coefficient into a finite toy.
@@ -220,20 +240,22 @@ The remaining caveat is crucial: the code itself was still prescribed.
 ---
 9. Checked that the schedule sector does not automatically destroy the two tensor modes
 A generic quadratic coupling between two soft TT modes and a gapped schedule/scalar/defect sector gives
-[
+$$
 \mathcal H(k)
 \begin{pmatrix}
 c^2k^2I_2 & kB\
 kB^\dagger & M^2
 \end{pmatrix}.
-]
+$$
+
 The effective TT stiffness is
-[
+$$
 k^2
 \left[
 c^2I_2-BM^{-2}B^\dagger
 \right].
-]
+$$
+
 There is an open coupling region in which both tensor modes remain healthy and all unwanted modes remain gapped.
 Why this matters
 Refoliation structure and a two-TT phase are not obviously mutually destructive.
@@ -243,14 +265,16 @@ The black-hole branch
 The project also explored whether the same moving-code language could explain black-hole response.
 Zero static response with dynamical absorption
 For an isospectral code orbit
-[
+$$
 H(\lambda)
 U(\lambda)H_0U^\dagger(\lambda),
-]
+$$
+
 static second-order spectral response is exactly cancelled by the code-motion/contact term:
-[
+$$
 \chi(0)=0.
-]
+$$
+
 Time-dependent motion can still generate transitions.
 This gives a finite quantum mechanism with the qualitative structure
 ```text
@@ -267,25 +291,28 @@ An early attempt tried to identify a Hermitian static susceptibility directly wi
 That was wrong.
 The generic MOTS operator is non-self-adjoint.
 The correct microscopic target is instead a cross-Jacobian
-[
+$$
 L^{\rm micro}_{xy}
 \frac{\delta\Theta_x^+}{\delta b_y},
-]
-where (b_y) is a normal deformation and (\Theta_x^+) is a microscopic outgoing-expansion analogue.
+$$
+
+where $b_y$ is a normal deformation and $\Theta_x^+$ is a microscopic outgoing-expansion analogue.
 A directed finite Jacobian naturally supports a discrete normal-bundle connection and has the correct covariant-Laplacian structure in the continuum.
 A generic simple zero mode of a nonlinear marginality equation produces the expected saddle-node scaling
-[
+$$
 A\sim|\mu-\mu_c|^{1/2}.
-]
+$$
+
 Why this matters
 The black-hole branch is now phrased as a real stability problem, not as a vague “information density reaches a threshold” story.
 ---
 What the V4 numerics actually showed
 The archived SU(2) even-rishon test material produced a decreasing softness sequence on complete graphs K4–K8.
 The K7 detuning response was approximately
-[
+$$
 \chi(t)\propto\frac1t.
-]
+$$
+
 That was later identified as an ordinary conserved-sector crossing pole, not the desired nonlinear fold.
 A later audit also found that the archived triangle coupling was not genuinely size-independent across the complete-graph sequence.
 Why this matters
@@ -316,8 +343,8 @@ The project still needs a single simple autonomous finite Hamiltonian that enter
 a nondegenerate relational frame;
 the scalar and momentum constraint structure;
 local schedule/refoliation redundancy;
-the HDA structure with the same (q^{ij});
-exactly two (z=1) tensor modes;
+the HDA structure with the same $q^{ij}$;
+exactly two $z=1$ tensor modes;
 no extra scalar/vector/aether modes.
 Crucially, those constraints must emerge as properties of the phase.
 If the microscopic Hamiltonian is simply built from GR stabilizers, then GR has been compiled into the answer rather than derived.
@@ -332,24 +359,25 @@ natural emergence.
 ---
 What would count as a real breakthrough?
 A genuinely decisive model would show, from one small symmetry-allowed Hamiltonian family:
-[
+$$
 H(g_1,g_2,\ldots),
-]
+$$
+
 that over a finite region of parameter space:
 the ground/low-energy phase is relational and nondegenerate;
 exactly two tensor modes remain gapless;
 their dispersion is
-[
+$$
 \omega=ck+O(k^3\ell_*^2);
-]
+$$
 scalar/vector/compact defects remain gapped;
 the gravitational constraint ideal appears dynamically;
 the normal-normal algebra approaches
-[
+$$
 D[q^{ij}(N\partial_jM-M\partial_jN)];
-]
-the same (q^{ij}) controls propagation;
-and the Einstein coefficient (c_R) is calculable rather than inserted.
+$$
+the same $q^{ij}$ controls propagation;
+and the Einstein coefficient $c_R$ is calculable rather than inserted.
 Only after that would the strong-field black-hole branch become a meaningful next test.
 ---
 Why this might matter
@@ -370,7 +398,7 @@ There are several straightforward ways the programme can still die.
 A candidate microscopic phase may:
 always retain an extra scalar;
 retain a preferred frame;
-produce (z\neq1) tensor dynamics;
+produce $z\neq1$ tensor dynamics;
 fail to generate the scalar constraint without it being explicitly inserted;
 produce a deformation algebra with the wrong structure function;
 become topological instead of gravitational;
@@ -457,3 +485,4 @@ For the full technical record:
 For the reproducibility suite:
 ```bash
 python run_all_tests.py
+```
