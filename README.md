@@ -8,6 +8,79 @@
 
 ---
 
+## GWXP at a glance
+
+```mermaid
+flowchart TD
+
+    A["Finite quantum substrate<br/>No background spacetime assumed"]
+
+    A --> B["Dynamical relational links<br/>Permutation-invariant microscopic description"]
+
+    B --> C["Resource / capacity competition<br/>Valence + communicability + finite link capacity"]
+
+    C --> D["Autonomous geometric phase<br/>Finite spectral dimension"]
+
+    D --> E["3D relational frame / metric<br/>Qᶦʲ from long-wavelength propagation"]
+
+    E --> F["Local involutive schedule moves<br/>Rₛ² = 1"]
+
+    F --> G["Normal × normal → spatial<br/>[Rₛ,Rₜ] = Tₛ₋ₜ − Tₜ₋ₛ"]
+
+    G --> H["Hypersurface-deformation structure<br/>D[Qᶦʲ(N∂ⱼM − M∂ⱼN)]"]
+
+    E --> H
+
+    H --> I["Constraint-preservation rigidity"]
+
+    I --> J["Linearized Einstein / Fierz–Pauli<br/>spatial operator"]
+
+    I --> K["DeWitt kinetic structure<br/>λ = 1/2"]
+
+    I --> L["Frame / torsion consistency<br/>TEGR ray (1, 2, −4)"]
+
+    J --> M["Two healthy tensor modes"]
+    K --> M
+    L --> M
+
+    M --> N["GR / TEGR two-derivative IR<br/>conditional on full autonomous constraint phase"]
+
+    E --> O["Moving protected code<br/>P(q), G = i[dP,P]"]
+
+    O --> P["Static response cancellation<br/>χ(0) = 0 on isospectral orbit"]
+
+    O --> Q["Directed horizon-response Jacobian<br/>MOTS-form stability target"]
+
+    Q --> R["Generic fold / critical response<br/>|μ−μc|¹ᐟ² scaling"]
+
+    N --> S["Strong-field gravity branch"]
+    P --> S
+    R --> S
+
+    T["CURRENT OPEN INTEGRATION PROBLEM<br/>One microscopic parent Hamiltonian must produce<br/>geometry + first-class constraints + HDA + exactly 2 TT modes"]
+    
+    D -.-> T
+    H -.-> T
+    M -.-> T
+
+    classDef established fill:#1f6f43,color:#fff,stroke:#14472d,stroke-width:2px;
+    classDef derived fill:#245b8a,color:#fff,stroke:#153a59,stroke-width:2px;
+    classDef numerical fill:#8a6d1d,color:#fff,stroke:#5c4913,stroke-width:2px;
+    classDef conditional fill:#6b4c8a,color:#fff,stroke:#44305a,stroke-width:2px;
+    classDef open fill:#8a2f2f,color:#fff,stroke:#581e1e,stroke-width:3px;
+
+    class A,B derived;
+    class C,D numerical;
+    class E,F,G,H,J,K,L,O,P,Q,R derived;
+    class M conditional;
+    class N,S conditional;
+    class T open;
+```
+
+**Reading the diagram:** solid arrows show pieces already derived, constructed or numerically benchmarked within the programme. The red box is the remaining integration problem: showing that one autonomous microscopic Hamiltonian realizes the complete gravitational phase without GR-like constraints being programmed into it.
+
+
+
 # 28 Sep 2026 major update — Natural Emergence is no longer only an open placeholder
 
 The earlier README ended with one dominant missing question:
