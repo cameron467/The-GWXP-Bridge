@@ -356,4 +356,3 @@ Use the GitHub issue templates for reproducibility failures or theory challenges
 ## License
 
 No open-source license has been selected in this snapshot. See [`10) License Notice.md`](10%29%20License%20Notice.md) before public release.
-No open-source license has been selected in this snapshot. See [`10) License Notice.md`](10%29%20License%20Notice.md) before public release.
