@@ -66,9 +66,11 @@ with large TT-direction splitting.
 
 Global mediator-prior reweighting can exactly isotropise `K_eff` while preserving total shear strength, with finite KL costs:
 
-```text
-N=216 : D_KL ~ 0.297
-N=344 : D_KL ~ 0.144.
+```math
+\begin{aligned}
+N &= 216 : D_KL ~ 0.297 \\
+N &= 344 : D_KL ~ 0.144.
+\end{aligned}
 ```
 
 The earlier radius-3 local success was found to contain a loophole: exact anisotropy constraints can be satisfied by collapsing local shear strength. After preventing that, radius 3 is not robust.
