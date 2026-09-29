@@ -1,3 +1,109 @@
+# README amendment — 29 September 2026
+
+This file is intended to update the current GitHub README without pretending the project is finished.
+
+## A. Replace the current top status block with
+
+```markdown
+> **Status:** active research programme / pre-handoff checkpoint  
+> **Current result:** GWXP now has (i) several exact finite relational / constraint constructions, (ii) a graph-only parent whose corrected energy landscape autonomously drives generic degree-6 graphs toward relation-rich low-dimensional states and has beaten tested rank-2 controls at `N=216` and `N=344`, and (iii) an exact finite construction of a gapped Hermitian pair-mediator that supplies soft relational graph-rewrite amplitudes without a hard locality cutoff.  
+> **Not yet shown:** that one frozen microscopic Hamiltonian has a stable thermodynamic 3D quantum phase with the full first-class scalar/spatial constraint structure, an isotropic downfolded rank-4 kinetic tensor, exactly two healthy gapless tensor modes, and nonlinear continuum GR universality.
+```
+
+## B. Insert this section after “What this project is actually about”
+
+```markdown
+---
+
+## Research checkpoint — 29 September 2026
+
+The graph-emergence branch has changed substantially since the earlier README was written.
+
+The active graph-only working point is now approximately
+
+```text
+degree k = 6
+g        = 2.0
+U        = 0.100
+kappa    = 0.30
+epsilon  = 0.025
+tau      = 5
+```
+
+At this point, parent-energy-only graph descent from generic degree-6 starts spontaneously condenses short relations, lowers the spectral gap, and moves toward an approximately three-dimensional disordered regime without being supplied coordinates or a target dimension.
+
+A long `N=216` blind run crossed the tested rank-2 Cayley competitor while retaining approximately 3D heat-kernel behaviour. A later `N=344` run exposed an important hidden bias: an earlier proposal generator had imposed a hard relational-locality filter. After removing that filter completely, the unrestricted blind run still crossed the tested same-size rank-2 control. This is stronger evidence that the low-dimensional tendency belongs to the parent-energy landscape rather than to an externally supplied locality rule.
+
+Several claims were also corrected rather than preserved:
+
+- an earlier `k=3` rewire implementation included reducible `k=2 + spectator` events; strict connected higher-order swaps do not currently show a special un-jamming advantage over ordinary 2-switches;
+- the old multiplicative common-graph mediator is Hermitian but appears to freeze too strongly with system size on generic graphs;
+- a heuristic additive square-root mediator improves that scaling but lacks a comparably clean microscopic derivation;
+- zero-temperature graph annealing is now treated as an energy-landscape diagnostic, not as the literal microscopic quantum dynamics.
+
+The current soft-local kinetic candidate instead comes from a gapped pair mediator. Let
+
+```text
+h_G = I - rho A_G,
+H_chi(G) = Delta (h_G tensor h_G),
+R_G = (I-rho A_G)^(-1),
+0 < rho < 1/6.
+```
+
+Eliminating the mediator gives the Hermitian graph-to-graph matrix element
+
+```text
+<G'|H_eff|G>
+ = -(gamma^2 / 2 Delta) [
+     R_G(a,c) R_G(b,d)
+   + R_G'(a,b) R_G'(c,d)
+   ].
+```
+
+This construction is coordinate-free, uses only the relational graph, has no hard `r` cutoff, and was verified by direct finite-Hamiltonian Schur reduction to machine precision.
+
+The resulting conceptual picture is now
+
+```text
+H_graph : selects the graph-energy landscape
+H_med   : supplies Hermitian soft-local motion through graph configuration space
+H_sched : carries the local schedule / normal structure
+H_mix   : tests / enforces the required local rotational closure structure
+matter  : uses the same incidence complex
+```
+
+The next decisive test is therefore no longer “can a classical optimiser find the 3D basin?” It is whether the **combined finite quantum Hamiltonian `H_graph + H_med` has its low-energy weight concentrated on the relation-rich approximately-3D sector**, and whether the rank-4, closure, matter-gap, and thermodynamic tests survive on that same autonomous phase.
+
+This is still a research programme, not a completed derivation of gravity.
+
+---
+```
+
+## C. Replace any older “current strongest concise claim” with
+
+```markdown
+> **Current strongest defensible claim:** GWXP has constructed and numerically connected several finite relational structures needed by an emergent-gravity programme. The corrected graph-only parent shows autonomous relation condensation and has reached low-dimensional states below tested rank-2 controls without external coordinates or a hard locality cutoff. A separate exact finite pair-mediator construction supplies Hermitian soft-local graph hopping. What is not yet proved is that the fully combined parent possesses a stable thermodynamic 3D quantum phase with the complete first-class gravitational constraint structure, no extra low-energy modes, and nonlinear continuum GR universality.
+```
+
+## D. Add this short “Known corrections” block near the end
+
+```markdown
+## Known corrections / demotions
+
+The project keeps failed branches visible rather than silently deleting them.
+
+- **Old `g=3` graph window:** demoted after a stronger rank-2 Cayley competitor was found.
+- **Earlier `N=512` energy scale:** corrected; a previous run used the wrong effective parameter scale.
+- **Nominal `k=3` un-jamming result:** corrected after reducible `k=2 + spectator` events were found in the proposal code.
+- **Hard `r=3` proposal locality:** removed from autonomous-emergence evidence; it accelerated nucleation but was not allowed as a fundamental rule.
+- **Multiplicative common-graph mediator:** demoted because its absolute hopping strength appears to freeze rapidly with `N` on generic starts.
+- **Square-root additive mediator:** demoted because the cleaner microscopic derivation produces a product Green-function kernel instead.
+- **Classical downhill annealing:** retained as a landscape diagnostic, not identified with the final quantum dynamics.
+```
+
+Reademe as at 28/09/2026 (Aussie time) continues below.
+
+
 
 # GWXP — Finite Quantum Structure and Emergent Gravity
 
