@@ -14,6 +14,11 @@ Ltilde = I - Atilde
 K_g     = exp(g Atilde)
 ```
 
+$$
+\widetilde A = D^{-1/2} A D^{-1/2}
+$$
+
+
 and the graph energy
 
 ```text
