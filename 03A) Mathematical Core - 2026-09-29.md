@@ -905,7 +905,7 @@ The strongest mathematically defensible summary is:
 > the corrected mediator is finite, Hermitian and relationally local;  
 > but bare graviton kinetics remain spin-4 anisotropic;  
 > and the one-parent first-class thermodynamic phase is unproved.
-}
+
 ```
 
 The remaining problem is an **integration theorem**, not the absence of candidate ingredients.
