@@ -109,76 +109,61 @@ flowchart TD
 
 The frozen schematic parent is
 
-$$
-H_{\mathrm{total}}
-=
-H_{\mathrm{graph}}[A]
-+
-H_{\mathrm{med}}[A,\chi]
-+
-H_{\mathrm{sched}}[B(A)]
-+
-H_{\mathrm{mix}}[\text{local }\Delta \widetilde L\text{ statistics / schedule frustration}]
-+
-H_{\mathrm{matter}}[B(A),\text{ local cells}] .
-$$
+```math
+\begin{aligned}
+H_{\mathrm{total}} &= H_{\mathrm{graph}}[A] \\
+&\quad + H_{\mathrm{med}}[A, \chi] \\
+&\quad + H_{\mathrm{sched}}[B(A)] \\
+&\quad + H_{\mathrm{mix}}[local \Delta L statistics / schedule frustration] \\
+&\quad + H_{\mathrm{matter}}[B(A), local cells].
+\end{aligned}
+```
 
 The graph sector currently studied is
 
-$$
-H_{\mathrm{graph}}
-=
-H_{\mathrm{degree}}
-+
-\tau T[A]
--
-J\,\mathrm{Tr}\!\left(e^{g\widetilde A}\right)
-+
-U\sum_{(ij)\in E}
-\left[e^{g\widetilde A}\right]_{ij}^{2}
--
-\kappa\log\det\!\left(\epsilon I+\widetilde L\right).
-$$
+```math
+\begin{aligned}
+H_{\mathrm{graph}} &= H_{\mathrm{degree}} \\
+&\quad + \tau T[A] \\
+&\quad - J \operatorname{Tr} \exp(g \widetilde A) \\
+&\quad + U sum_(ij in E) [\exp(g \widetilde A)]_{ij}^{2} \\
+&\quad - \kappa log \det(\epsilon I + \widetilde L),
+\end{aligned}
+```
 
 with the finite phase-search point
 
-$$
-d=6,\qquad
-J=1,\qquad
-g=2.0,\qquad
-U=0.100,\qquad
-\kappa=0.30,\qquad
-\epsilon=0.025,\qquad
-\tau=5.
-$$
+```math
+\begin{aligned}
+d &= 6 \\
+J &= 1 \\
+g &= 2.0 \\
+U &= 0.100 \\
+\kappa &= 0.30 \\
+\epsilon &= 0.025 \\
+\tau &= 5
+\end{aligned}
+```
 
-The corrected soft-local mediator is derived from a gapped pair sector. For a legal 2-switch,
+The corrected soft-local mediator is derived from a gapped pair sector. For a legal 2-switch
 
-$$
-(ab,cd)\longrightarrow(ac,bd),
-$$
+```text
+(ab, cd) -> (ac, bd)
+```
 
 its effective Hermitian configuration-space hopping is
 
-$$
-t_{GG'}
-=
--\eta
-\left[
-R_G(a,c)R_G(b,d)
-+
-R_{G'}(a,b)R_{G'}(c,d)
-\right],
-$$
-
-with
-
-$$
-R_G=\left(I-\rho_m A_G\right)^{-1}.
-$$
+```math
+\begin{aligned}
+t_{GG}' &= -\eta [ \\
+& R_G(a,c) R_G(b,d) \\
+&\quad + R_G'(a,b) R_G'(c,d) \\
+& ], \\
+R_G &= (I - rho_m A_G)^{-1}.
+\end{aligned}
+```
 
 See [`docs/01) Frozen Candidate Parent - 2026-09-29.md`](docs/01%29%20Frozen%20Candidate%20Parent%20-%202026-09-29.md) for the precise frozen candidate and claim labels.
-
 
 ## What survived the final pre-handoff pass
 
@@ -215,8 +200,8 @@ The current project does **not** get isotropic graviton kinetics for free from a
 
 Using the exact metric-move identity
 
-```text
-6 X^T (Delta Ltilde_m) X = delta h_m
+```math
+6 X^T (\Delta Ltilde_m) X = \delta h_m
 ```
 
 and the corrected mediator channel weights, the bare physical kinetic covariance remains strongly spin-4 anisotropic after whitening the rank-2 metric.
