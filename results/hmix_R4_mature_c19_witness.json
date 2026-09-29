@@ -1,0 +1,15 @@
+{
+  "N": 344,
+  "center": 19,
+  "radius": 4,
+  "ball": 161,
+  "moves_total": 79756,
+  "subset": 16000,
+  "subset_iso_feasible": true,
+  "subset_iso_shear": 0.06523799676408984,
+  "physical_prior_shear_est": 0.30925139379039873,
+  "witness_ratio_to_prior": 0.2109545763544923,
+  "prior_sample_n": 2500,
+  "uniform_shear": 0.29042136662103907,
+  "elapsed": 7.845211744308472
+}
