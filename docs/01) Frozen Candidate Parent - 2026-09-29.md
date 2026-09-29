@@ -8,39 +8,46 @@
 
 For adjacency `A`, define
 
-```text
-Atilde = D^(-1/2) A D^(-1/2)
-Ltilde = I - Atilde
-K_g     = exp(g Atilde)
+```math
+\begin{aligned}
+\widetilde A &= D^{-1/02} A D^{-1/2} \\
+\widetilde L &= I - \widetilde A \\
+K_g &= \exp(g \widetilde A)
+\end{aligned}
 ```
 
 and the graph energy
 
-```text
-H_graph = H_degree
-        + tau T[A]
-        - J Tr exp(g Atilde)
-        + U sum_(ij in E) [K_g]_{ij}^2
-        - kappa log det(epsilon I + Ltilde).
+```math
+\begin{aligned}
+H_{\mathrm{graph}} &= H_{\mathrm{degree}} \\
+&\quad + \tau T[A] \\
+&\quad - J \mathrm{Tr} \exp(g \widetilde A) \\
+&\quad + U \sum_{(ij)\in E} [K_g]_{ij}^{2} \\
+&\quad - \kappa \log \det(\epsilon I + \widetilde L).
+\end{aligned}
 ```
+
 The degree term may be written
 
-```text
-H_degree = mu m + lambda sum_i C(d_i,2),
+```math
+H_{\mathrm{degree}} = \mu m + \lambda \sum_{i} C(d_i,2),
 ```
 
 with the degree-6 sector centred by `mu=-(2k-1)lambda=-11lambda` for `k=6`.
 
 Current finite phase-search point:
 
-```text
-d = 6
-J = 1
-g = 2.0
-U = 0.100
-kappa = 0.30
-epsilon = 0.025
-tau = 5
+```math
+\begin{aligned}
+d &= 6 \\
+J &= 1 \\
+g &= 2.0 \\
+U &= 0.100 \\
+\kappa &= 0.30 \\
+\epsilon &= 0.025 \\
+\tau &= 5
+\end{aligned}
 ```
 
 **Status:** candidate microscopic graph functional. The valence selection and several reaction-coordinate identities are derived conditional on this choice; the full functional itself remains a microscopic assumption.
@@ -51,16 +58,20 @@ The old uniform all-edge driver and the old multiplicative common-graph mediator
 
 For a graph `G`, define
 
-```text
-h_G = I - rho_m A_G,          0 < rho_m < 1/6,
-H_chi(G) = Delta [h_G tensor h_G].
+```math
+\begin{aligned}
+h_G &= I - rho_m A_G,          0 < rho_m < 1/6, \\
+H_chi(G) &= \Delta [h_G tensor h_G].
+\end{aligned}
 ```
 
 Then
 
-```text
-H_chi(G)^(-1) = (1/Delta) [R_G tensor R_G],
-R_G = (I-rho_m A_G)^(-1).
+```math
+\begin{aligned}
+H_chi(G)^{-01} &= (1/\Delta) [R_G tensor R_G], \\
+R_G &= (I-rho_m A_G)^{-1}.
+\end{aligned}
 ```
 
 For a legal degree-preserving switch
@@ -84,8 +95,8 @@ The two terms exchange under `G <-> G'`, so `t_GG'=t_G'G` exactly.
 
 Separately, the strong valence Hamiltonian gives the leading degree-preserving 2-switch amplitude
 
-```text
-|t_switch| = 20 Gamma^4/lambda^3
+```math
+|t_{\mathrm{switch}}| = 20 \Gamma^{4}/\lambda^{3}
 ```
 
 before weaker graph-sector corrections.
@@ -96,23 +107,29 @@ before weaker graph-sector corrections.
 
 For oriented incidence `B` in the degree-6 sector,
 
-```text
-B B^T = 6 I - A = 6 Ltilde,
-Bhat = B/sqrt(6).
+```math
+\begin{aligned}
+B B^{T} &= 6 I - A = 6 \widetilde L, \\
+\widehat B &= B/\sqrt{6}.
+\end{aligned}
 ```
 
 The same incidence operator gives the finite matter propagation carrier and the normal/schedule carrier. A smeared normal operator is
 
-```text
-K[N] = [[0, M_N Bhat],
-        [Bhat^T M_N, 0]].
+```math
+\begin{aligned}
+K[N] &= [[0, M_N \widehat B], \\
+& [\widehat B^{T} M_N, 0]].
+\end{aligned}
 ```
 
 Its vertex normal-normal commutator is exactly
 
-```text
-[K[N],K[M]]_vertex
- = M_N Ltilde M_M - M_M Ltilde M_N.
+```math
+\begin{aligned}
+& [K[N],K[M]]_{\mathrm{vertex}} \\
+ &= M_N \widetilde L M_M - M_M \widetilde L M_N.
+\end{aligned}
 ```
 
 **Status:** EXACT finite algebraic construction. Promotion to a genuine extended many-body first-class constraint phase remains OPEN.
@@ -121,8 +138,8 @@ Its vertex normal-normal commutator is exactly
 
 For a three-component local diffusion/frame map `X`, a genuine 2-switch obeys
 
-```text
-6 X^T (Delta Ltilde_m) X = delta h_m.
+```math
+6 X^{T} (\Delta Ltilde_m) X = \delta h_m.
 ```
 
 Thus the physical kinetic covariance is built from the same Laplacian fluctuations,
@@ -170,8 +187,8 @@ Maximum-entropy tests on representative corrected-autonomous `R=4` subsets reach
 
 The exact finite vertex branch obeys
 
-```text
-E_m^2 = lambda(Ltilde).
+```math
+E_m^{2} = \lambda(\widetilde L).
 ```
 
 The extensive edge-cycle zero kernel is repaired by local curl faces,
@@ -210,12 +227,14 @@ Longer positive-weight faces can only increase these finite gaps.
 
 ## 7. Current one-parent schematic
 
-```text
-H_total = H_graph[A]
-        + H_med[A,chi]
-        + H_sched[B(A)]
-        + H_mix[local Delta L statistics / schedule frustration]
-        + H_matter[B(A), local cells].
+```math
+\begin{aligned}
+H_{\mathrm{total}} &= H_{\mathrm{graph}}[A] \\
+&\quad + H_{\mathrm{med}}[A,\chi] \\
+&\quad + H_{\mathrm{sched}}[B(A)] \\
+&\quad + H_{\mathrm{mix}}[local \Delta L statistics / schedule frustration] \\
+&\quad + H_{\mathrm{matter}}[B(A), local cells].
+\end{aligned}
 ```
 
 No external coordinates, hard graph radius, explicit target dimension, explicit `C4` target, or hand-inserted DeWitt tensor is part of the frozen candidate.
