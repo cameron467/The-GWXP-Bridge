@@ -121,7 +121,7 @@ A defensible current summary is:
 
 A symmetric spatial metric perturbation has 6 components. Three spatial gauge directions and one scalar/normal constraint leave:
 
-```text
+```math
 6 - 3 - 1 = 2
 ```
 
@@ -133,25 +133,29 @@ Finite-q stabilizer-like regulators can realize this counting algebraically.
 
 For the most general parity-even rotationally invariant two-derivative spatial operator
 
-```text
-(Kh)_ij = a nabla^2 h_ij
-        + b (d_i v_j + d_j v_i)
-        + c d_i d_j h
-        + d delta_ij s
-        + e delta_ij nabla^2 h,
+```math
+\begin{aligned}
+(Kh)_ij &= a nabla^{2} h_ij \\
+&\quad + b (d_i v_j + d_j v_i) \\
+&\quad + c d_i d_j h \\
+&\quad + d \delta_{ij} s \\
+&\quad + e \delta_{ij} nabla^{2} h,
+\end{aligned}
 ```
 
 constraint preservation gives
 
-```text
-a + b = 0
-b + d = 0
-c + e = 0
+```math
+\begin{aligned}
+a + b &= 0 \\
+b + d &= 0 \\
+c + e &= 0
+\end{aligned}
 ```
 
 and self-adjointness gives
 
-```text
+```math
 c = d.
 ```
 
@@ -161,20 +165,20 @@ This collapses the operator to the linearized Einstein / Fierz-Pauli form up to 
 
 For
 
-```text
-(M pi)_ij = alpha pi_ij + beta delta_ij pi,
+```math
+(M \pi)_ij = \alpha \pi_{ij} + \beta \delta_{ij} \pi,
 ```
 
 scalar-constraint preservation on the momentum-constraint surface forces
 
-```text
-alpha + 2 beta = 0,
+```math
+\alpha + 2 \beta = 0,
 ```
 
 hence
 
-```text
-(M pi)_ij proportional to pi_ij - (1/02) delta_ij pi.
+```math
+(M \pi)_ij \propto \pi_{ij} - (1/02) \delta_{ij} \pi.
 ```
 
 A separate finite Z5 canonical shear/stabilizer test independently selected `lambda = 1/2`. This is one of the strongest repeated rigidity results in the project.
@@ -183,16 +187,18 @@ A separate finite Z5 canonical shear/stabilizer test independently selected `lam
 
 For the parity-even torsion family
 
-```text
-L = c1 T^rho_{mu nu} T_rho^{mu nu}
-  + c2 T^rho_{mu nu} T^{nu mu}_rho
-  + c3 T^rho_{mu rho} T^{sigma mu}_sigma,
+```math
+\begin{aligned}
+L &= c1 T^rho_{\mu \nu} T_rho^{\mu \nu} \\
+&\quad + c2 T^rho_{\mu \nu} T^{\nu \mu}_rho \\
+&\quad + c3 T^rho_{\mu \rho} T^{\sigma \mu}_sigma,
+\end{aligned}
 ```
 
 removing the unwanted vector and antisymmetric kinetic sectors gives
 
-```text
-(c1,c2,c03) proportional to (1,2,-4).
+```math
+(c1,c2,c03) \propto (1,2,-4).
 ```
 
 That is the TEGR ray up to conventions. TEGR is established to be dynamically equivalent to GR up to a boundary term.
@@ -201,13 +207,13 @@ That is the TEGR ray up to conventions. TEGR is established to be dynamically eq
 
 For any smooth isolated projector family `P(q)`:
 
-```text
+```math
 G_a = i [d_a P, P]
 ```
 
 satisfies
 
-```text
+```math
 d_a P = -i [G_a, P].
 ```
 
@@ -217,14 +223,14 @@ So a moving protected band automatically carries a connection once it depends on
 
 For an isospectral orbit
 
-```text
-H(lambda) = U(lambda) H_0 U^dagger(lambda),
+```math
+H(\lambda) = U(\lambda) H_0 U^{\dagger}(\lambda),
 ```
 
 spectral second-order response cancels the contact/code-motion term at zero frequency, giving a structural
 
-```text
-chi(0) = 0
+```math
+\chi(0) = 0
 ```
 
 while time-dependent motion can still produce transitions. This is a structural analogue of zero static Love plus absorption, not a derivation of the physical Kerr/Schwarzschild response.
@@ -235,8 +241,8 @@ The generic MOTS stability operator is non-self-adjoint. Therefore it should not
 
 The correct microscopic target is a **cross-Jacobian**:
 
-```text
-L_micro,xy = delta Theta_x^+ / delta b_y.
+```math
+L_{\mathrm{micro}},xy = \delta \Theta_{x}^+ / \delta b_y.
 ```
 
 A directed finite Jacobian can carry the appropriate normal-bundle/covariant-Laplacian structure.
@@ -282,26 +288,26 @@ These should remain dead unless genuinely new evidence changes them.
 
 For edge occupations `n_ij`, edge count `m`, and degrees `d_i`:
 
-```text
-H_deg = mu m + lambda sum_i C(d_i,2).
+```math
+H_deg = \mu m + \lambda \sum_{i} C(d_i,2).
 ```
 
 Target valence `k` is selected on
 
-```text
--2 k lambda < mu < -2 (k-01) lambda.
+```math
+-2 k \lambda < \mu < -2 (k-01) \lambda.
 ```
 
 At the center
 
-```text
-mu = -(2k-01) lambda,
+```math
+\mu = -(2k-01) \lambda,
 ```
 
 this becomes
 
-```text
-H_deg = (lambda/02) sum_i (d_i-k)^2 + const.
+```math
+H_deg = (\lambda/02) \sum_{i} (d_i-k)^{2} + \mathrm{const}.
 ```
 
 Valence is a resource constraint, not dimension.
@@ -310,19 +316,23 @@ Valence is a resource constraint, not dimension.
 
 Using normalized adjacency and Laplacian
 
-```text
-Atilde = D^(-1/02) A D^(-1/2)
-Ltilde = I - Atilde,
+```math
+\begin{aligned}
+\widetilde A &= D^{-1/02} A D^{-1/2} \\
+\widetilde L &= I - \widetilde A,
+\end{aligned}
 ```
 
 the current graph functional is
 
-```text
-H_eff = H_degree
-      + tau T
-      - J Tr exp(g Atilde)
-      + U sum_edges [exp(g Atilde)_ij]^2
-      - kappa log det(eps I + Ltilde).
+```math
+\begin{aligned}
+H_{\mathrm{eff}} &= H_{\mathrm{degree}} \\
+&\quad + \tau T \\
+&\quad - J \mathrm{Tr} \exp(g \widetilde A) \\
+&\quad + U \sum_{edges} [\exp(g \widetilde A)_ij]^{2} \\
+&\quad - \kappa \log \det(\epsilon I + \widetilde L).
+\end{aligned}
 ```
 
 Interpretation:
@@ -339,8 +349,8 @@ No target coordinates or target dimension are supplied to the energy.
 
 The frozen older benchmark was
 
-```text
-g=6, U=0.018, lambda=4, tau=5, kappa=0.01, eps=0.025.
+```math
+g=6, U=0.018, \lambda=4, \tau=5, \kappa=0.01, \epsilon=0.025.
 ```
 
 For cubic `Z^3` the infinite energy was approximately
@@ -385,8 +395,8 @@ The window closes against tested boundaries above roughly `g ~ 6.5`.
 
 A clean HDA-friendly point used later was
 
-```text
-g=5, U=0.0374, lambda=4, tau=5, kappa=0.01, eps=0.025.
+```math
+g=5, U=0.0374, \lambda=4, \tau=5, \kappa=0.01, \epsilon=0.025.
 ```
 
 This was useful as a clean periodic frame laboratory, but the rank-4 kinetic analysis later showed that a globally oriented cubic crystal is not enough for exact spin-2 isotropy.
@@ -399,23 +409,25 @@ This was useful as a clean periodic frame laboratory, but the rank-4 kinetic ana
 
 For four vertices and six link qubits:
 
-```text
-V = (1/02) sum_i (d_i-1)^2
-H = V - Gamma sum_e X_e.
+```math
+\begin{aligned}
+V &= (1/02) \sum_{i} (d_i-1)^{2} \\
+H &= V - \Gamma \sum_{e} X_e.
+\end{aligned}
 ```
 
 At `Gamma=0` the zero manifold is the three perfect matchings.
 
 Matching-to-matching tunnelling first appears at fourth order. Summing all 24 virtual paths gives
 
-```text
-t = 20 Gamma^4.
+```math
+t = 20 \Gamma^{4}.
 ```
 
 The K3 schedule-orbit Laplacian then has gap
 
-```text
-Delta_schedule = 60 Gamma^4 + O(Gamma^6).
+```math
+\Delta_{\mathrm{schedule}} = 60 \Gamma^{4} + \mathcal{O}(\Gamma^{6}).
 ```
 
 Sparse ED verified the coefficient over a range of Gamma.
@@ -434,16 +446,16 @@ The reconnection graph is connected by a constructive proof: repeatedly fix targ
 
 For equal positive tunnelling, the schedule Hamiltonian
 
-```text
-H_sched = t L_matching
+```math
+H_{\mathrm{sched}} = t L_matching
 ```
 
 is positive semidefinite with a unique kernel equal to the uniform schedule superposition.
 
 Numerically, the first gap obeyed
 
-```text
-Delta/t = 3,5,7,9,11
+```math
+\Delta/t = 3,5,7,9,11
 ```
 
 for `n=2..6`, strongly suggesting `2n-1`, though a full arbitrary-n smallest-gap proof was not supplied.
@@ -452,25 +464,29 @@ for `n=2..6`, strongly suggesting `2n-1`, though a full arbitrary-n smallest-gap
 
 For all 15 link qubits of K6, with
 
-```text
-H0 = (1/02) sum_i (d_i-1)^2
-V  = -Gamma sum_e X_e,
+```math
+\begin{aligned}
+H0 &= (1/02) \sum_{i} (d_i-1)^{2} \\
+V &= -\Gamma \sum_{e} X_e,
+\end{aligned}
 ```
 
 there are 15 perfect-matching states at Gamma=0.
 
 A local matching rewire has the same fourth-order coefficient
 
-```text
-t = 20 Gamma^4.
+```math
+t = 20 \Gamma^{4}.
 ```
 
 The 15-state matching graph predicts relative bands
 
-```text
-0,
-100 Gamma^4,
-180 Gamma^4,
+```math
+\begin{aligned}
+& 0, \\
+& 100 \Gamma^{4}, \\
+& 180 \Gamma^{4},
+\end{aligned}
 ```
 
 with multiplicities `1,9,5`.
@@ -487,23 +503,25 @@ This is important because the schedule-orbit Laplacian is not merely inserted af
 
 For
 
-```text
-G = Z^3 semidirect Z_2,
+```math
+G = Z^{3} semidirect Z_2,
 ```
 
 with reflections `R_s`:
 
-```text
-R_s^2 = 1
-R_s R_t = T_{s-t}
-R_s R_t R_s R_t = T_{2(s-t)}
-[R_s,R_t] = T_{s-t} - T_{t-s}.
+```math
+\begin{aligned}
+R_s^{2} &= 1 \\
+R_s R_t &= T_{s-t} \\
+R_s R_t R_s R_t &= T_{2(s-t)} \\
+[R_s,R_t] &= T_{s-t} - T_{t-s}.
+\end{aligned}
 ```
 
 For smeared normal generators
 
-```text
-H[N] = sum_s N_s K_s,
+```math
+H[N] = \sum_{s} N_s K_s,
 ```
 
 the commutator automatically carries the antisymmetric lapse wedge
@@ -518,22 +536,24 @@ That wedge is algebraic, not hand-inserted.
 
 For six all-reflection offsets in group coordinates, the same covariance tensor appears in both the graph Laplacian and the normal-normal commutator displacements:
 
-```text
-Q = (1/702) sum_{alpha<beta}
-        (s_alpha-s_beta)(s_alpha-s_beta)^T
-  = (1/02) Cov(s).
+```math
+\begin{aligned}
+Q &= (1/702) sum_{\alpha<\beta} \\
+& (s_alpha-s_beta)(s_alpha-s_beta)^{T} \\
+ &= (1/02) Cov(s).
+\end{aligned}
 ```
 
 In the physical cubic basis:
 
-```text
+```math
 Q = I/6.
 ```
 
 The low-k normalized Laplacian is
 
-```text
-L(k) = Q^{ij} k_i k_j + O(k^4).
+```math
+L(k) = Q^{ij} k_i k_j + \mathcal{O}(k^{4}).
 ```
 
 The continuum commutator gives
@@ -549,14 +569,14 @@ So the same `Q` controls propagation and the HDA structure function.
 
 Using a divergence-form operator
 
-```text
-Delta_Q f = d_i(Q^{ij} d_j f),
+```math
+\Delta_{Q} f = d_i(Q^{ij} d_j f),
 ```
 
 with position-dependent positive non-diagonal `Q(x)`, the normal-normal commutator converged to the half-density Lie derivative with
 
-```text
-xi^i = Q^{ij}(N d_j M - M d_j N).
+```math
+\xi^i = Q^{ij}(N d_j M - M d_j N).
 ```
 
 The residual scaled approximately as `L^-2`. Derivative-of-Q terms appeared automatically.
@@ -565,9 +585,11 @@ The residual scaled approximately as `L^-2`. Derivative-of-Q terms appeared auto
 
 Let arbitrary bijections `phi_a : X -> X` define local matching channels with permutation matrices `P_a`. For arbitrary local weights `N_a(x)`, define a doubled-sheet normal operator
 
-```text
-K[N] = [[0, A_N^dagger], [A_N, 0]],
-A_N  = sum_a P_a M[N_a].
+```math
+\begin{aligned}
+K[N] &= [[0, A_N^{\dagger}], [A_N, 0]], \\
+A_N &= \sum_{a} P_a M[N_a].
+\end{aligned}
 ```
 
 Then exactly:
@@ -586,22 +608,22 @@ This is stronger than homogeneous closure, but still not by itself a proof that 
 
 If spatial relabellings act as `U(pi)` and relational observables are projected/averaged by
 
-```text
-P_rel = (1/|G|) sum_pi U(pi),
+```math
+P_{\mathrm{rel}} = (1/|G|) \sum_{pi} U(\pi),
 ```
 
 then `P_rel U(pi)=P_rel`.
 
 If schedule operations differ by a spatial relabelling,
 
-```text
-W_a W_b = U(pi_ab) W_b W_a,
+```math
+W_a W_b = U(\pi_{ab}) W_b W_a,
 ```
 
 then after relational projection
 
-```text
-P_rel W_a W_b = P_rel W_b W_a.
+```math
+P_{\mathrm{rel}} W_a W_b = P_{\mathrm{rel}} W_b W_a.
 ```
 
 Thus schedule orderings that close into pure spatial relabelling are physically equivalent in the finite quotient.
@@ -614,37 +636,41 @@ The remaining open issue is to derive the full local projector/constraint interp
 
 On a finite `Z_4^3 semidirect Z_2` regular representation, define
 
-```text
-C_s = R_s - I
-D_v = T_v - I.
+```math
+\begin{aligned}
+C_s &= R_s - I \\
+D_v &= T_v - I.
+\end{aligned}
 ```
 
 Then exactly:
 
-```text
-[C_s,C_t] = D_{s-t} - D_{t-s}
-[D_u,C_s] = C_{u+s} - C_{s-u}
-[D_u,D_v] = 0
+```math
+\begin{aligned}
+[C_s,C_t] &= D_{s-t} - D_{t-s} \\
+[D_u,C_s] &= C_{u+s} - C_{s-u} \\
+[D_u,D_v] &= 0
+\end{aligned}
 ```
 
 in the flat translation sector.
 
 For the selected six reflections,
 
-```text
-L = (1/102) sum_s C_s^dagger C_s.
+```math
+L = (1/102) \sum_{s} C_s^{\dagger} C_s.
 ```
 
 Also
 
-```text
-Atilde = I - L,
+```math
+\widetilde A = I - L,
 ```
 
 so the communicability term is literally
 
-```text
--J e^g Tr exp(-g L).
+```math
+-J e^g \mathrm{Tr} \exp(-g L).
 ```
 
 This is a useful consolidation: graph selection, the propagation Laplacian, and a sum of squared finite group-derived operators become the same algebraic object in the homogeneous phase.
@@ -665,8 +691,8 @@ In the physical basis, the six offsets can be centered into
 
 Define three frame vectors `E_a` from the opposite pairs. Then
 
-```text
-Q = (1/06) sum_a E_a E_a^T = (1/06) E E^T.
+```math
+Q = (1/06) \sum_{a} E_a E_a^{T} = (1/06) E E^{T}.
 ```
 
 At the cubic point `E=I`, so `Q=I/6`.
@@ -675,8 +701,8 @@ At the cubic point `E=I`, so `Q=I/6`.
 
 At `E=I`:
 
-```text
-delta Q = (delta E + delta E^T)/6.
+```math
+\delta Q = (\delta E + \delta E^{T})/6.
 ```
 
 The linear map from the 9 frame perturbations to symmetric `delta Q` has rank 6. Its kernel has dimension 3 and is exactly the antisymmetric local-frame rotations.
@@ -687,9 +713,11 @@ Thus the frame contains the full six-component spatial metric without bolting on
 
 For propagation along z:
 
-```text
-plus  : delta E = diag(1,-1,0)
-cross : delta E_xy = delta E_yx = 1
+```math
+\begin{aligned}
+plus  : \delta E &= diag(1,-1,0) \\
+cross : \delta E_xy &= \delta E_yx = 1
+\end{aligned}
 ```
 
 produce the familiar trace-free, z-transverse plus and cross metric perturbations.
@@ -702,18 +730,18 @@ This only identifies TT directions kinematically; constraints are required to pr
 
 The graph term is
 
-```text
-H_J = -J Tr exp(g Atilde).
+```math
+H_J = -J \mathrm{Tr} \exp(g \widetilde A).
 ```
 
 Since
 
-```text
-Atilde = I - Ltilde,
+```math
+\widetilde A = I - \widetilde L,
 ```
 
-```text
-H_J = -J e^g Tr exp(-g Ltilde).
+```math
+H_J = -J e^g \mathrm{Tr} \exp(-g \widetilde L).
 ```
 
 If the long-wavelength phase is manifold-like and
@@ -724,15 +752,17 @@ Ltilde -> (ell_*^2/6)(-Delta_q) + O(ell_*^4 d^4),
 
 then with
 
-```text
-t = g ell_*^2 / 6,
+```math
+t = g ell_*^{2} / 6,
 ```
 
 the 3D heat-kernel expansion gives
 
-```text
-Tr exp[-t(-Delta_q)]
- ~ (4 pi t)^(-3/02) int sqrt(q) [1 + t R/6 + ...].
+```math
+\begin{aligned}
+& \mathrm{Tr} \exp[-t(-\Delta_{q})] \\
+& ~ (4 \pi t)^{-3/02} \int \sqrt{q} [1 + t R/6 + ...].
+\end{aligned}
 ```
 
 Therefore the same graph-selection term produces
@@ -780,25 +810,27 @@ Starting with:
 
 for every nonzero momentum tested:
 
-```text
-6 symmetric metric components
-- 1 scalar constraint
-- 3 spatial gauge directions
-= 2 physical configuration modes.
+```math
+\begin{aligned}
+& 6 symmetric metric components \\
+&\quad - 1 scalar constraint \\
+&\quad - 3 spatial gauge directions \\
+ &= 2 physical configuration modes.
+\end{aligned}
 ```
 
 An explicit TT gauge slice had nullity 2.
 
 The Fierz-Pauli operator restricted to that slice had two equal positive eigenvalues proportional to
 
-```text
-p^2 = Q^{ij} k_i k_j.
+```math
+p^{2} = Q^{ij} k_i k_j.
 ```
 
 The DeWitt form was positive on TT, giving two degenerate healthy tensor modes
 
-```text
-omega^2 proportional to Q^{ij} k_i k_j.
+```math
+\omega^{2} \propto Q^{ij} k_i k_j.
 ```
 
 This is an IR/effective consistency test, not a microscopic derivation of the kinetic coefficient from Gamma.
@@ -809,23 +841,27 @@ File: `gwxp_linearized_physical_modes.py`.
 
 Write the linearized scalar Hamiltonian as
 
-```text
-H[N] = A int N (pi_ij pi_ij - 1/2 pi^2)
-     - B int N R^(1)[h] + ...
+```math
+\begin{aligned}
+H[N] &= A \int N (\pi_{ij} \pi_{ij} - 1/2 \pi^{2}) \\
+&\quad - B \int N R^{1}[h] + ...
+\end{aligned}
 ```
 
 At the first nontrivial order, the scalar-scalar Poisson bracket gives
 
-```text
-{H[N],H[M]}
-    = A B D_i [N d^i M - M d^i N]
+```math
+\begin{aligned}
+& {H[N],H[M]} \\
+ &= A B D_i [N d^i M - M d^i N]
+\end{aligned}
 ```
 
 in the conventions used by the benchmark.
 
 Canonical HDA normalization therefore requires
 
-```text
+```math
 A B = 1.
 ```
 
@@ -845,17 +881,19 @@ File: `gwxp_hda_coefficient_lock.py`.
 
 For a generic target valence `k`, take
 
-```text
-H_deg = (lambda/02) sum_i (d_i-k)^2
-V     = -Gamma sum_e X_e.
+```math
+\begin{aligned}
+H_deg &= (\lambda/02) \sum_{i} (d_i-k)^{2} \\
+V &= -\Gamma \sum_{e} X_e.
+\end{aligned}
 ```
 
 A genuine degree-preserving 2-switch changes only degree defects of four endpoints. The background valence `k` cancels out of the denominators.
 
 Summing all 24 four-flip orders gives
 
-```text
-|t_switch| = 20 Gamma^4 / lambda^3
+```math
+|t_{\mathrm{switch}}| = 20 \Gamma^{4} / \lambda^{3}
 ```
 
 at leading order, before weaker graph terms renormalize the virtual denominators.
@@ -868,16 +906,18 @@ File: `gwxp_microscopic_metric_kinetic_scale.py`.
 
 For a coarse metric coordinate with step `delta_h`, a tight-binding hopping `t_switch` gives
 
-```text
-E(p_+,p_x)
- = 2 t_switch [2 - cos(delta_h p_+) - cos(delta_h p_x)]
- ~ t_switch delta_h^2 (p_+^2+p_x^2).
+```math
+\begin{aligned}
+& E(p_+,p_x) \\
+ &= 2 t_{\mathrm{switch}} [2 - \cos(\delta_{h} p_+) - \cos(\delta_{h} p_x)] \\
+& ~ t_{\mathrm{switch}} \delta_{h}^{2} (p_+^{2}+p_x^{2}).
+\end{aligned}
 ```
 
 Thus structurally
 
-```text
-A_TT = rho_move delta_h^2 (20 Gamma^4/lambda^3).
+```math
+A_TT = \rho_{\mathrm{move}} \delta_{h}^{2} (20 \Gamma^{4}/\lambda^{3}).
 ```
 
 The unknown `rho_move delta_h^2` is a coarse-graining Jacobian, not a new microscopic coupling.
@@ -888,10 +928,12 @@ On the cubic representative, local degree-preserving rewires with new edge lengt
 
 Results:
 
-```text
-rank in Sym(03)                = 6 / 6
-rank of traceless projections = 5 / 5
-rank onto TT(k||z)            = 2 / 2.
+```math
+\begin{aligned}
+rank in Sym(03) &= 6 / 6 \\
+rank of traceless projections &= 5 / 5 \\
+rank onto TT(k||z) &= 2 / 2.
+\end{aligned}
 ```
 
 So the transverse-link dynamics has kinematic access to the full local metric, including both TT polarizations.
@@ -914,22 +956,26 @@ For the six cubic directions
 
 the second moment is isotropic:
 
-```text
-<n_i n_j> = delta_ij/3.
+```math
+<n_i n_j> = \delta_{ij}/3.
 ```
 
 But the fourth moment is not:
 
-```text
-<n_x^4>       = 1/3
-<n_x^2 n_y^2> = 0,
+```math
+\begin{aligned}
+<n_x^{4}> &= 1/3 \\
+<n_x^{2} n_y^{2}> &= 0,
+\end{aligned}
 ```
 
 where rotational isotropy requires
 
-```text
-<n_x^4>       = 1/5
-<n_x^2 n_y^2> = 1/15.
+```math
+\begin{aligned}
+<n_x^{4}> &= 1/5 \\
+<n_x^{2} n_y^{2}> &= 1/15.
+\end{aligned}
 ```
 
 Thus a globally oriented cubic microstructure can look isotropic to rank-2 propagation while a spin-2 kinetic tensor still sees preferred axes.
@@ -944,16 +990,16 @@ The most general cubic-symmetric kinetic map decomposes the symmetric momentum t
 
 Let the corresponding coefficients be
 
-```text
-lambda_0, lambda_E, lambda_T.
+```math
+\lambda_{0}, \lambda_{E}, \lambda_{T}.
 ```
 
 Impose the momentum constraint and require preservation of the linear scalar constraint for arbitrary momentum direction.
 
 The unique solution up to normalization is
 
-```text
-lambda_0 : lambda_E : lambda_T = -1/2 : 1 : 1.
+```math
+\lambda_{0} : \lambda_{E} : \lambda_{T} = -1/2 : 1 : 1.
 ```
 
 So exact first-class constraint preservation forbids the cubic TT split and recovers the DeWitt ray.
@@ -1062,8 +1108,8 @@ Rotate the local triad independently from cell to cell.
 
 For every individual cell:
 
-```text
-Q_ij = delta_ij/3
+```math
+Q_ij = \delta_{ij}/3
 ```
 
 exactly, independent of orientation.
@@ -1136,8 +1182,8 @@ Start from a random 6-regular graph. Use only:
 
 At an early point such as
 
-```text
-g=4, U=0.052, tau=5, kappa=0.01, eps=0.025,
+```math
+g=4, U=0.052, \tau=5, \kappa=0.01, \epsilon=0.025,
 ```
 
 finite N=64 annealing reached lower-energy graphs with low-mode spectral fits near `d ~ 3`.
@@ -1164,8 +1210,8 @@ Results:
 
 Heat-kernel spectral dimension is now the preferred diagnostic:
 
-```text
-d_s(t) = 2 t [sum lambda exp(-t lambda)] / [sum exp(-t lambda)].
+```math
+d_s(t) = 2 t [sum \lambda \exp(-t \lambda)] / [sum \exp(-t \lambda)].
 ```
 
 File: `gwxp_spectral_dimension_calibration.py` and later `gwxp_heat_kernel_dimension.py`.
@@ -1213,9 +1259,11 @@ The target is a coupling interval where:
 
 Define:
 
-```text
-U_collapse = lower bound needed for Z^3 to beat compactified products
-U_amorph   = upper bound below which an amorphous graph beats cubic.
+```math
+\begin{aligned}
+U_{\mathrm{collapse}} &= lower bound needed for Z^{3} to beat compactified products \\
+U_{\mathrm{amorph}} &= upper bound below which an amorphous graph beats cubic.
+\end{aligned}
 ```
 
 We require
@@ -1230,11 +1278,13 @@ Increasing **the already-existing determinant coupling** opened a narrow tested 
 
 At approximately
 
-```text
-g      = 3.0
-kappa  = 0.08
-eps    = 0.025
-tau    = 5
+```math
+\begin{aligned}
+g &= 3.0 \\
+\kappa &= 0.08 \\
+\epsilon &= 0.025 \\
+\tau &= 5
+\end{aligned}
 ```
 
 we found
@@ -1246,7 +1296,7 @@ U_amorph   ~ 0.106651.
 
 So the current candidate is
 
-```text
+```math
 U = 0.106.
 ```
 
@@ -1258,8 +1308,8 @@ File: `gwxp_amorphous_window_kappa_scan.py`.
 
 At
 
-```text
-g=3, U=0.106, kappa=0.08, eps=0.025,
+```math
+g=3, U=0.106, \kappa=0.08, \epsilon=0.025,
 ```
 
 representative infinite product energies are approximately:
@@ -1333,9 +1383,11 @@ It began with 22 triangles. With the actual parent triangle penalty `tau=5`, ann
 
 After the same square-nucleation barrier was crossed, it independently landed in an almost identical basin:
 
-```text
-e              = -1.7635476287
-C4/N           = 4.6953125
+```math
+\begin{aligned}
+e &= -1.7635476287 \\
+C4/N &= 4.6953125
+\end{aligned}
 ```
 
 Heat-kernel values:
@@ -1365,10 +1417,12 @@ gwxp_unrestricted_N128_g3.0_U0.106_k0.08_seed128909.npz
 
 At the same candidate couplings, a separate N=216 run with square-guided exact-energy basin search found
 
-```text
-e            = -1.7629237021
-C4/N         = 4.074074
-spectral gap = 0.129475.
+```math
+\begin{aligned}
+e &= -1.7629237021 \\
+C4/N &= 4.074074 \\
+spectral gap &= 0.129475.
+\end{aligned}
 ```
 
 Heat-kernel spectral dimension:
@@ -1411,9 +1465,11 @@ For the N=128 and N=216 candidate graphs, square participation varies substantia
 
 Example coefficients of variation:
 
-```text
-N=128  CV_square ~ 0.21
-N=216  CV_square ~ 0.27.
+```math
+\begin{aligned}
+N &= 128  CV_square \sim 0.21 \\
+N &= 216  CV_square \sim 0.27.
+\end{aligned}
 ```
 
 A perfect cubic crystal has zero square-participation variance.
@@ -1454,11 +1510,13 @@ It is not by itself evidence that the microscopic local dynamics rapidly thermal
 
 The strict adversarial standard is:
 
-```text
-K_eff^{ijkl}
-  = K_iso^{ijkl}
-  + c_4(ell) C_cubic^{ijkl}
-  + ...
+```math
+\begin{aligned}
+& K_{\mathrm{eff}}^{ijkl} \\
+ &= K_iso^{ijkl} \\
+&\quad + c_4(\ell) C_cubic^{ijkl} \\
+&\quad + ...
+\end{aligned}
 ```
 
 The cubic objection is genuinely defeated only if the original parent gives
@@ -1469,8 +1527,8 @@ c_4(ell) -> 0
 
 at long scale, hence
 
-```text
-omega_+^2 = omega_x^2
+```math
+omega_+^{2} = \omega_{x}^{2}
 ```
 
 for arbitrary propagation direction, without manually inserting an isotropic shell or counterterm.
@@ -1507,18 +1565,20 @@ The next instance should not spend time inventing another local shell. The decis
 
 At the candidate couplings
 
-```text
-k       = 6
-g       = 3.0
-U       = 0.106
-kappa   = 0.08
-epsilon = 0.025
-tau     = 5
+```math
+\begin{aligned}
+k &= 6 \\
+g &= 3.0 \\
+U &= 0.106 \\
+\kappa &= 0.08 \\
+\epsilon &= 0.025 \\
+\tau &= 5
+\end{aligned}
 ```
 
 run graph-only parent optimization for at least
 
-```text
+```math
 N = 128, 216, 343, 512, ...
 ```
 
@@ -1597,14 +1657,14 @@ Do not identify raw edge-direction moments or raw rewire covariance with the phy
 
 Derive the downfolded physical kinetic action of the parent in the candidate amorphous phase:
 
-```text
-K_eff^{ijkl}
+```math
+K_{\mathrm{eff}}^{ijkl}
 ```
 
 and decompose
 
-```text
-K_eff = K_iso + c_4 C_spin4 + ...
+```math
+K_{\mathrm{eff}} = K_iso + c_4 C_spin4 + ...
 ```
 
 Track `c_4(N)` or `c_4(ell)` directly.
@@ -1774,35 +1834,39 @@ https://github.com/cameron467/The-GWXP-Bridge
 
 ## 23.1 Schedule/reconnection
 
-```text
-local 2-switch amplitude from valence term:
-    t_switch = 20 Gamma^4 / lambda^3
-
-K4 matching-orbit gap:
-    60 Gamma^4 + O(Gamma^6)
-
-K6 effective matching bands:
-    0, 100 Gamma^4, 180 Gamma^4
-    multiplicities 1, 9, 5
+```math
+\begin{aligned}
+& local 2-switch amplitude from valence term: \\
+t_{\mathrm{switch}} &= 20 \Gamma^{4} / \lambda^{3} \\
+& K4 matching-orbit gap: \\
+& 60 \Gamma^{4} + \mathcal{O}(\Gamma^{6}) \\
+& K6 effective matching bands: \\
+& 0, 100 \Gamma^{4}, 180 \Gamma^{4} \\
+& multiplicities 1, 9, 5
+\end{aligned}
 ```
 
 ## 23.2 Older generalized-dihedral 3D phase
 
-```text
-g=6, U=.018 mixed rank-3 generalized-dihedral:
-    thermodynamic energy estimate ~ -8.173368935
-    d_spec ~ 2.9814
+```math
+\begin{aligned}
+g &= 6, U=.018 mixed rank-3 generalized-dihedral: \\
+& thermodynamic energy estimate \sim -8.173368935 \\
+& d_{\mathrm{spec}} \sim 2.9814
+\end{aligned}
 ```
 
 ## 23.3 Current candidate amorphous-3D overlap point
 
-```text
-target degree k = 6
-g               = 3.0
-U               = 0.106
-kappa           = 0.08
-epsilon         = 0.025
-tau             = 5
+```math
+\begin{aligned}
+target degree k &= 6 \\
+g &= 3.0 \\
+U &= 0.106 \\
+\kappa &= 0.08 \\
+\epsilon &= 0.025 \\
+\tau &= 5
+\end{aligned}
 ```
 
 Window estimate from tested adversaries:
@@ -1867,41 +1931,35 @@ Do not answer with "we solved gravity" or "the model is dead"; neither is curren
 
 Copy/paste this if useful:
 
-```text
-Continue the GWXP / Cosmic Glue research programme from the attached rollover handoff.
-
-Treat the handoff as the evidence ledger. Preserve every KILLED / DEMOTED / CORRECTED route. Do not reopen old derivations unless a new contradiction requires it.
-
-The immediate target is the candidate graph-only amorphous 3D phase at:
-    degree k = 6
-    g = 3.0
-    U = 0.106
-    kappa = 0.08
-    epsilon = 0.025
-    tau = 5
-
-Current evidence:
-- N=128 and N=216 graph-only low-energy basins are structurally disordered;
-- heat-kernel spectral dimension is roughly 3.3-3.4 at intermediate scales;
-- rank-4 orientation spread is compatible with finite-sample isotropic disorder;
-- tested product competitors show a narrow anti-collapse/amorphous overlap window;
-- ordinary annealing has nucleation barriers, so square-guided proposals have been used only as search accelerators while exact parent energy still decides acceptance.
-
-Attack this as hard as possible.
-
-First:
-1. build a clean finite-size scaling benchmark for N=128,216,343,512+ with multiple random seeds;
-2. use heat-kernel spectral dimension as primary dimension diagnostic, with IDOS/gap/diameter cross-checks;
-3. fit gap scaling and epsilon_2/epsilon_4 scaling;
-4. broaden the global-energy adversary set;
-5. distinguish existence of the basin from dynamical accessibility;
-6. then derive the actual downfolded physical K_eff^{ijkl} and track the spin-4 coefficient c4(ell), rather than relying on raw orientation proxies.
-
-The rank-4 objection is defeated only if c4 -> 0 and omega_+^2 = omega_x^2 for arbitrary propagation direction from the original parent.
-
-The gravity programme is complete only if the same extended parent also yields genuine local first-class scalar/spatial constraints, shared-metric HDA, exactly two healthy z=1 tensors, and nonlinear closure without added GR-shaped counterterms.
-
-Use epistemic labels EXACT / DERIVED / NUMERICAL / CONDITIONAL / OPEN / KILLED. Keep drilling until the candidate either survives or breaks.
+```math
+\begin{aligned}
+& Continue the GWXP / Cosmic Glue research programme from the attached rollover handoff. \\
+& Treat the handoff as the evidence ledger. Preserve every KILLED / DEMOTED / CORRECTED route. Do not reopen old derivations unless a new contradiction requires it. \\
+& The immediate target is the candidate graph-only amorphous 3D phase at: \\
+degree k &= 6 \\
+g &= 3.0 \\
+U &= 0.106 \\
+\kappa &= 0.08 \\
+\epsilon &= 0.025 \\
+\tau &= 5 \\
+& Current evidence: \\
+- N &= 128 and N=216 graph-only low-energy basins are structurally disordered; \\
+&\quad - heat-kernel spectral dimension is roughly 3.3-3.4 at intermediate scales; \\
+&\quad - rank-4 orientation spread is compatible with finite-sample isotropic disorder; \\
+&\quad - tested product competitors show a narrow anti-collapse/amorphous overlap window; \\
+&\quad - ordinary annealing has nucleation barriers, so square-guided proposals have been used only as search accelerators while exact parent energy still decides acceptance. \\
+& Attack this as hard as possible. \\
+& First: \\
+1. build a clean finite-size scaling benchmark for N &= 128,216,343,512+ with multiple random seeds; \\
+& 2. use heat-kernel spectral dimension as primary dimension diagnostic, with IDOS/gap/diameter cross-checks; \\
+& 3. fit gap scaling and \epsilon_{2}/\epsilon_{4} scaling; \\
+& 4. broaden the global-energy adversary set; \\
+& 5. distinguish existence of the basin from dynamical accessibility; \\
+& 6. then derive the actual downfolded physical K_{\mathrm{eff}}^{ijkl} and track the spin-4 coefficient c4(\ell), rather than relying on raw orientation proxies. \\
+The rank-4 objection is defeated only if c4 \to 0 and omega_+^{2} &= \omega_{x}^{2} for arbitrary propagation direction from the original parent. \\
+The gravity programme is complete only if the same extended parent also yields genuine local first-class scalar/spatial constraints, shared-metric HDA, exactly two healthy z &= 1 tensors, and nonlinear closure without added GR-shaped counterterms. \\
+& Use epistemic labels EXACT / DERIVED / NUMERICAL / CONDITIONAL / OPEN / KILLED. Keep drilling until the candidate either survives or breaks.
+\end{aligned}
 ```
 
 ---
@@ -1944,20 +2002,22 @@ Operationally, use **small computation batches**. The previous conversation repe
 
 The core cross-consistency loop is now:
 
-```text
-graph / incidence operator B
-    -> Ltilde = Bhat Bhat^T
-    -> propagation Q
-    -> matter z=1 branch
-    -> normal-normal lapse wedge
-    -> moving graph delta L
-    -> metric move delta h
-    -> K_eff covariance
-    -> local schedule/H_mix reweighting
-    -> isotropic kinetic sector
-    -> symmetry-derived scalar
-    -> DeWitt ray + AB=1
-    -> shared schedule clock with matter
+```math
+\begin{aligned}
+& graph / incidence operator B \\
+\to \widetilde L &= \widehat B \widehat B^{T} \\
+& \to propagation Q \\
+\to matter z &= 1 branch \\
+& \to normal-normal lapse wedge \\
+& \to moving graph \delta L \\
+& \to metric move \delta h \\
+& \to K_{\mathrm{eff}} covariance \\
+& \to local schedule/H_{\mathrm{mix}} reweighting \\
+& \to isotropic kinetic sector \\
+& \to symmetry-derived scalar \\
+\to DeWitt ray + AB &= 1 \\
+& \to shared schedule clock with matter
+\end{aligned}
 ```
 
 The goal is no longer to collect compatible pieces; it is to prove that they are **the same pieces viewed in different representations**.
@@ -1970,20 +2030,20 @@ The goal is no longer to collect compatible pieces; it is to prove that they are
 
 A conserved internal matter excitation on a degree-6 graph can use
 
-```text
-H_m^(01) = Delta I - t_B A.
+```math
+H_m^{01} = \Delta I - t_B A.
 ```
 
 For degree 6,
 
-```text
-6 I - A = 6 Ltilde.
+```math
+6 I - A = 6 \widetilde L.
 ```
 
 The archived N=128 check gave exact eigenvalue proportionality. Therefore, conditionally,
 
-```text
-Q_matter proportional to Q_propagation proportional to Q_HDA.
+```math
+Q_{\mathrm{matter}} \propto Q_propagation \propto Q_HDA.
 ```
 
 This was already a strong same-spatial-metric result, but a simple one-particle tight-binding dispersion is naturally `z=2`, so it did not by itself provide relativistic matter.
@@ -1992,33 +2052,35 @@ This was already a strong same-spatial-metric result, but a simple one-particle 
 
 Choose any orientation of the graph edges and let `B` be the vertex-edge incidence matrix. For a 6-regular graph,
 
-```text
-B B^T = 6 I - A = 6 Ltilde.
+```math
+B B^{T} = 6 I - A = 6 \widetilde L.
 ```
 
 Define
 
-```text
-Bhat = B / sqrt(6)
+```math
+\widehat B = B / \sqrt{6}
 ```
 
 and the first-order graph Dirac operator
 
-```text
-D_G = [[0, Bhat],
-       [Bhat^T, 0]].
+```math
+\begin{aligned}
+D_G &= [[0, \widehat B], \\
+& [\widehat B^{T}, 0]].
+\end{aligned}
 ```
 
 Then exactly
 
-```text
-D_G^2 vertex block = Ltilde,
+```math
+D_G^{2} vertex block = \widetilde L,
 ```
 
 so the nonzero vertex-sector matter energies satisfy
 
-```text
-E_m^2 = lambda(Ltilde).
+```math
+E_m^{2} = \lambda(\widetilde L).
 ```
 
 This is an exact finite `z=1` spectrum using only the relational graph. Edge-orientation flips act by sign conjugation and vertex relabellings by permutation similarity, so the spectrum is independent of arbitrary labels/orientations.
@@ -2029,27 +2091,33 @@ This is an exact finite `z=1` spectrum using only the relational graph. Edge-ori
 
 Define a smeared normal carrier
 
-```text
-K[N] = [[0, M_N Bhat],
-        [Bhat^T M_N, 0]].
+```math
+\begin{aligned}
+K[N] &= [[0, M_N \widehat B], \\
+& [\widehat B^{T} M_N, 0]].
+\end{aligned}
 ```
 
 Then on any 6-regular graph,
 
-```text
-[K[N], K[M]]_vertex
- = M_N Ltilde M_M - M_M Ltilde M_N,
+```math
+\begin{aligned}
+& [K[N], K[M]]_{\mathrm{vertex}} \\
+ &= M_N \widetilde L M_M - M_M \widetilde L M_N,
+\end{aligned}
 ```
 
 while the edge block and off-diagonal blocks cancel.
 
 On the actual parent-generated N=216 amorphous graph:
 
-```text
-||Bhat Bhat^T - Ltilde|| ~ 3.8e-15
-normal-normal block identity error ~ 1.7e-15
-edgewise lapse-wedge error ~ 4.4e-16
-three-normal Jacobi residual ~ 1.7e-15
+```math
+\begin{aligned}
+& ||\widehat B \widehat B^{T} - \widetilde L|| \sim 3.8e-15 \\
+& normal-normal block identity error \sim 1.7e-15 \\
+& edgewise lapse-wedge error \sim 4.4e-16 \\
+& three-normal Jacobi residual \sim 1.7e-15
+\end{aligned}
 ```
 
 On each edge `(u,v)`, the commutator coefficient is exactly proportional to
@@ -2060,10 +2128,12 @@ N_u M_v - M_u N_v.
 
 Thus the **same incidence operator** supplies:
 
-```text
-z=1 matter
-propagation Laplacian
-normal-normal schedule algebra.
+```math
+\begin{aligned}
+z &= 1 matter \\
+& propagation Laplacian \\
+& normal-normal schedule algebra.
+\end{aligned}
 ```
 
 This is currently one of the strongest same-Q consolidations in GWXP.
@@ -2076,8 +2146,8 @@ This is currently one of the strongest same-Q consolidations in GWXP.
 
 The old
 
-```text
-V = -Gamma sum_{i<j} X_ij
+```math
+V = -\Gamma sum_{i<j} X_ij
 ```
 
 has `O(N^2)` channels and no geometry-local suppression. Far and local flips enter at the same microscopic order. The vacuum shift scales badly and the model lacks a graph-local Lieb-Robinson-like causal structure.
@@ -2088,8 +2158,8 @@ Therefore this driver is deprecated as the final metric dynamics.
 
 A Hermitian local projector driver was introduced:
 
-```text
-V_r = -Gamma sum_{i<j} P_ij^(r) X_ij,
+```math
+V_r = -\Gamma sum_{i<j} P_ij^{r} X_ij,
 ```
 
 where the path test excludes the toggled edge. `r=3` was initially used explicitly.
@@ -2106,30 +2176,36 @@ So `r=3` can be demoted from a microscopic cutoff to the leading legal order.
 
 Let a gapped mediator propagate on occupied links:
 
-```text
-R_rho = (I - rho A)^(-1)
-      = sum_{ell>=0} rho^ell A^ell,
+```math
+\begin{aligned}
+R_rho &= (I - \rho A)^{-1} \\
+ &= sum_{\ell\ge 0} \rho^\ell A^\ell,
+\end{aligned}
 ```
 
 with `rho < 1/6` for degree 6 stability.
 
 For a 2-switch `G <-> G'`, define the common graph `C = G intersect G'` and use the symmetric amplitude
 
-```text
-t_GG' = Gamma sqrt[
-    R_C(a,b) R_C(c,d) R_C(a,c) R_C(b,d)
-].
+```math
+\begin{aligned}
+t_GG' &= \Gamma sqrt[ \\
+& R_C(a,b) R_C(c,d) R_C(a,c) R_C(b,d) \\
+& ].
+\end{aligned}
 ```
 
 Because the same common graph is used forward and backward, the amplitude is exactly Hermitian under switch reversal.
 
 On N=216 the mediator amplitudes decrease sharply with relational distance. At `rho=0.1`, representative median two-edge weights fell roughly as:
 
-```text
-d=3 : 1.6e-5
-d=4 : 1.35e-6
-d=5 : 3.3e-7
-d=6 : 8.5e-8.
+```math
+\begin{aligned}
+d &= 3 : 1.6e-5 \\
+d &= 4 : 1.35e-6 \\
+d &= 5 : 3.3e-7 \\
+d &= 6 : 8.5e-8.
+\end{aligned}
 ```
 
 Closure/H_mix reweighting still reached numerical isotropy over tested `rho` values roughly `0.05-0.15` with modest KL cost.
@@ -2168,8 +2244,8 @@ E_343^cubic ~ -1.761650962
 
 and a lower-energy noncrystalline state was found with
 
-```text
-Delta E < 0
+```math
+\Delta E < 0
 ```
 
 while a global rank-4 proxy decreased substantially from the cubic value ~0.72 toward ~0.39 and below.
@@ -2182,7 +2258,7 @@ Some parent-downhill moves improved `c4`; others made it worse. Across candidate
 
 Therefore:
 
-```text
+```math
 bare parent energy descent != automatic isotropy descent.
 ```
 
@@ -2192,8 +2268,8 @@ A separate selector is needed if exact low-energy closure is to remove the spin-
 
 A weak diagnostic functional
 
-```text
-F = E_parent + kappa_cl c4^2
+```math
+F = E_parent + \kappa_{cl} c4^{2}
 ```
 
 showed that `kappa_cl ~ 1e-4` could steer local moves that lowered both parent energy and anisotropy, whereas `1e-3` began trading bare parent energy for isotropy.
@@ -2218,8 +2294,8 @@ The correct object is the kinetic constraint-preservation anomaly of the actual 
 
 This was corrected using **common-channel before/after estimators**. Individual closure-improving rewires did not correlate strongly with TT improvement:
 
-```text
-Corr(Delta eta_comp, Delta epsilon_TT) ~ 0
+```math
+Corr(\Delta eta_comp, \Delta \epsilon_{TT}) \sim 0
 ```
 
 over the small robust move sample.
@@ -2230,9 +2306,11 @@ Thus closure and TT isotropy are not identical single-rewire objectives.
 
 A blind trajectory was then run using only:
 
-```text
-Delta E_parent < 0
-Delta eta_comp < 0
+```math
+\begin{aligned}
+& \Delta E_parent < 0 \\
+& \Delta eta_comp < 0
+\end{aligned}
 ```
 
 with no TT/c4 selection.
@@ -2286,9 +2364,11 @@ Typical channel multipliers remain close to one.
 
 After conformal/trace completion, the optimized kinetic map lands numerically on
 
-```text
-lambda_0 : lambda_1 : ... : lambda_5
- = -0.5 : 1 : 1 : 1 : 1 : 1
+```math
+\begin{aligned}
+& \lambda_{0} : \lambda_{1} : ... : \lambda_{5} \\
+ &= -0.5 : 1 : 1 : 1 : 1 : 1
+\end{aligned}
 ```
 
 to numerical precision.
@@ -2313,7 +2393,7 @@ A self-adjoint kinetic map on the 6-dimensional symmetric-tensor space has 21 co
 
 Therefore the non-scalar sector has
 
-```text
+```math
 21 - 2 = 19
 ```
 
@@ -2325,13 +2405,13 @@ Thus the 19-component selector is not secretly a complicated GR tensor: it is ex
 
 Representation-theoretically,
 
-```text
-Sym^2(Sym^2 R^03) = 2 l=0 + 2 l=2 + l=4,
+```math
+Sym^{2}(Sym^{2} R^{03}) = 2 l=0 + 2 l=2 + l=4,
 ```
 
 so the bad sector is
 
-```text
+```math
 2 l=2 + l=4
 ```
 
@@ -2343,10 +2423,12 @@ The microscopic schedule-token model was rerun with an interaction defined only 
 
 A representative result began at roughly
 
-```text
-eta_SO3 = 1
-eta_closure = 1
-epsilon_TT ~ 16.4%
+```math
+\begin{aligned}
+eta_SO3 &= 1 \\
+eta_closure &= 1 \\
+& \epsilon_{TT} \sim 16.4%
+\end{aligned}
 ```
 
 and evolved toward
@@ -2371,8 +2453,8 @@ Suppose a coarse schedule block contains `R` microscopic update opportunities. B
 
 The number/weight of microscopic histories realizing `w` is multinomial. By the method of types,
 
-```text
-P_0(w) ~ exp[-R D_KL(w || w0)].
+```math
+P_0(w) \sim \exp[-R D_KL(w || w0)].
 ```
 
 Therefore the relative-entropy term arises from microscopic history multiplicity rather than being inserted as an optimization aesthetic.
@@ -2383,7 +2465,7 @@ A reduced finite history enumeration built from actual N=343 anomaly classes app
 
 The old autonomous schedule diamond used
 
-```text
+```math
 H_diamond = J_x(I-W_x) + J_y(I-W_y),
 ```
 
@@ -2391,8 +2473,8 @@ with a finite positive gap and zero-frustration ground states invariant under th
 
 For a small loop
 
-```text
-G_loop = exp[i epsilon^2 A + O(epsilon^3)],
+```math
+G_loop = \exp[i \epsilon^{2} A + \mathcal{O}(\epsilon^{3})],
 ```
 
 schedule frustration bounds the energy by a positive quadratic function of the holonomy mismatch. Thus the low-step effective cost contains
@@ -2403,8 +2485,8 @@ schedule frustration bounds the energy by a positive quadratic function of the h
 
 Therefore the effective variational structure
 
-```text
-F[w] = D_KL(w||w0) + kappa ||A(w)||^2
+```math
+F[w] = D_KL(w||w0) + \kappa ||A(w)||^{2}
 ```
 
 has identifiable microscopic origins:
@@ -2418,8 +2500,8 @@ schedule frustration -> anomaly square.
 
 For the real 800-channel N=343 ensemble,
 
-```text
-log(w_m/w0_m) = c - lambda dot g_m
+```math
+\log(w_m/w0_m) = c - \lambda dot g_m
 ```
 
 fit the exact optimized weights with `R^2` numerically 1 and residual ~`1e-14`.
@@ -2446,10 +2528,12 @@ converged from multiple initial states to the same Hartree stationary solutions.
 
 Representative local results:
 
-```text
-kappa=0.1: eta/raw ~0.329, KL ~0.0226, shear spread ~1.08
-kappa=1:   eta/raw ~0.119, KL ~0.0672, shear spread ~0.526
-kappa=10:  eta/raw ~0.0266, KL ~0.140, shear spread ~0.136
+```math
+\begin{aligned}
+\kappa &= 0.1: eta/raw ~0.329, KL ~0.0226, shear spread ~1.08 \\
+\kappa &= 1:   eta/raw ~0.119, KL ~0.0672, shear spread ~0.526 \\
+\kappa &= 10:  eta/raw ~0.0266, KL ~0.140, shear spread ~0.136
+\end{aligned}
 ```
 
 This is not yet a preferred microscopic derivation; finite-token corrections can be large for small token populations. Preserve it as an exploratory quantum completion, not a core result.
@@ -2464,20 +2548,20 @@ This branch is one of the most important post-rollover upgrades.
 
 For the most general rotational two-derivative scalar
 
-```text
-C = a d_i d_j h_ij + b nabla^2 h,
+```math
+C = a d_i d_j h_ij + b nabla^{2} h,
 ```
 
 spatial gauge invariance forces
 
-```text
+```math
 a + b = 0,
 ```
 
 leaving, up to normalization,
 
-```text
-C proportional to d_i d_j h_ij - nabla^2 h,
+```math
+C \propto d_i d_j h_ij - nabla^{2} h,
 ```
 
 i.e. the linearized spatial-curvature scalar.
@@ -2496,8 +2580,8 @@ Thus the finite scalar form was **recovered from symmetry**, not inserted as a g
 
 Use the generic isotropic kinetic update
 
-```text
-delta h_ij = alpha pi_ij + beta delta_ij pi.
+```math
+\delta h_ij = \alpha \pi_{ij} + \beta \delta_{ij} \pi.
 ```
 
 On the three-site Z5 regulator, exhaustively test all 15,625 lapse pairs.
@@ -2510,8 +2594,8 @@ The only nonzero coefficient pairs that close for all lapse pairs are
 
 which are precisely the nonzero multiples of
 
-```text
-alpha + 2 beta = 0.
+```math
+\alpha + 2 \beta = 0.
 ```
 
 Wrong rays close only on the trivial/special lapse directions.
@@ -2524,14 +2608,14 @@ A separate all-momentum test over all 124 nonzero `k in Z5^3` again leaves the s
 
 For the three-site ring, the coefficient generated by the normal-normal bracket satisfies exactly
 
-```text
-q = N (L M) - M (L N) = D^T xi,
+```math
+q = N (L M) - M (L N) = D^{T} \xi,
 ```
 
 where
 
-```text
-xi_x = N_x M_{x+1} - M_x N_{x+1}.
+```math
+\xi_{x} = N_x M_{x+1} - M_x N_{x+1}.
 ```
 
 This is the same discrete lapse wedge previously generated by the autonomous schedule diamond.
@@ -2542,9 +2626,11 @@ The identity had zero failures over all 15,625 lapse pairs.
 
 On the 18 finite metric registers of the three-site regulator:
 
-```text
-spatial gauge rank = 6
-spatial-gauge-invariant configuration exponent = 18-6 = 12.
+```math
+\begin{aligned}
+spatial gauge rank &= 6 \\
+spatial-gauge-invariant configuration exponent &= 18-6 = 12.
+\end{aligned}
 ```
 
 For wrong `alpha+2 beta`, schedule-loop holonomies introduce two additional non-gauge transverse translations, reducing the invariant fiber from
@@ -2563,8 +2649,8 @@ A minimal finite frame/schedule Hamiltonian was built with:
 - a generic gapped frame Hamiltonian;
 - two schedule registers whose loop shifts the physical frame coordinate by
 
-```text
-r = alpha + 2 beta.
+```math
+r = \alpha + 2 \beta.
 ```
 
 At the DeWitt ray `r=0`, frame ground state and schedule zero-frustration coexist exactly at zero energy.
@@ -2573,10 +2659,12 @@ For wrong branches, the schedule loop translates a physical gapped frame coordin
 
 At equal couplings in the simplest toy:
 
-```text
-E0(r=0)=0
-E0(r=1,04) ~0.8822
-E0(r=2,03) ~0.9268.
+```math
+\begin{aligned}
+E0(r &= 0)=0 \\
+E0(r &= 1,04) ~0.8822 \\
+E0(r &= 2,03) ~0.9268.
+\end{aligned}
 ```
 
 The selection persisted over a broad coupling sweep and across 30 randomized generic frame Hamiltonians (diagonal and dense Hermitian), producing 840/840 strictly positive wrong-branch tests.
@@ -2591,13 +2679,13 @@ The selection persisted over a broad coupling sweep and across 30 randomized gen
 
 After selecting the DeWitt shape, write the normal Hamiltonian schematically as
 
-```text
+```math
 H[N] = A K[N] - B R[N].
 ```
 
 Scanning all `(A,B) in Z5^2` over all 15,625 lapse pairs, the only nonzero fully matching pairs satisfy
 
-```text
+```math
 A B = 1 mod 5.
 ```
 
@@ -2607,22 +2695,24 @@ This is the finite version of the continuum HDA coefficient lock.
 
 For a canonical finite scalar matter edge Hamiltonian with temporal coefficient `a` and gradient coefficient `b`, the exact bracket is
 
-```text
-{H_m[N],H_m[M]}
- = a b (N_x M_y - M_x N_y) D_m,
+```math
+\begin{aligned}
+& {H_m[N],H_m[M]} \\
+ &= a b (N_x M_y - M_x N_y) D_m,
+\end{aligned}
 ```
 
 where `D_m` is the discrete matter spatial-translation generator.
 
 Exhausting all matter states, all lapse pairs, and all finite coefficient pairs selects
 
-```text
+```math
 a b = 1 mod 5.
 ```
 
 Therefore one common schedule clock forces
 
-```text
+```math
 A B = a b = 1,
 ```
 
@@ -2648,13 +2738,15 @@ For degree-6 N=343 this is 687 unwanted edge zero directions. They cannot simply
 
 On the independent parent states:
 
-```text
-N=128: cycles of length <=6 span 257/257 cycle directions.
-N=216: rank progression
-       L=4:   338
-       L<=5:  364
-       L<=6:  417
-       L<=7:  433/433.
+```math
+\begin{aligned}
+N &= 128: cycles of length \le 6 span 257/257 cycle directions. \\
+N &= 216: rank progression \\
+L &= 4:   338 \\
+& L\le 5:  364 \\
+& L\le 6:  417 \\
+& L\le 7:  433/433.
+\end{aligned}
 ```
 
 On the torus-descended N=343 state, squares alone had rank 684 of 687, leaving the expected three toroidal global cycles, but this was correctly treated as ancestry-dependent rather than spontaneous topology evidence.
@@ -2663,15 +2755,17 @@ On the torus-descended N=343 state, squares alone had rank 684 of 687, leaving t
 
 Rather than selecting an independent global cycle basis, use every available local short cycle `c` as a curl penalty on the edge sector:
 
-```text
-H_curl = sum_c mu_c Q_c^dagger Q_c,
-mu_c > 0.
+```math
+\begin{aligned}
+H_curl &= \sum_{c} \mu_{c} Q_c^{\dagger} Q_c, \\
+& \mu_{c} > 0.
+\end{aligned}
 ```
 
 Because cycle boundaries lie in `ker B`, the curl term annihilates the vertex-gradient branch exactly and therefore leaves
 
-```text
-E_vertex^2 = lambda(Ltilde)
+```math
+E_{\mathrm{vertex}}^{2} = \lambda(\widetilde L)
 ```
 
 unchanged.
@@ -2686,16 +2780,16 @@ A fixed `ell<=7` face rule passed all archived N=128/216 states and many N=343 r
 
 Therefore:
 
-```text
-universal hard face cutoff ell<=7
+```math
+universal hard face cutoff \ell\le 7
 ```
 
 is demoted.
 
 The natural replacement is a soft local loop hierarchy, e.g.
 
-```text
-mu_ell proportional to rho_f^(ell-ell_min).
+```math
+\mu_{\mathrm{ell}} \propto \rho_{f}^{\ell-\ell_{\mathrm{min}}}.
 ```
 
 However, a rigorous basis lower-bound test showed that the curl gap can become extremely small when the shortest cycle basis drifts to longer loops. Representative lower bounds were as small as `~1e-7` for one N=344 state at `rho_f=0.1`.
@@ -2718,25 +2812,29 @@ In a three-direction finite Z5 version, individual nested commutators are nonzer
 
 For normalized frame legs `E=J/S`, define
 
-```text
-q_12 = E_1 dot E_2,
-q_23 = E_2 dot E_3,
-q_31 = E_3 dot E_1,
-chi = E_1 dot (E_2 x E_3).
+```math
+\begin{aligned}
+q_12 &= E_1 dot E_2, \\
+q_23 &= E_2 dot E_3, \\
+q_31 &= E_3 dot E_1, \\
+\chi &= E_1 dot (E_2 x E_3).
+\end{aligned}
 ```
 
 Then
 
-```text
-[q_12,q_23] = -(i/S) chi.
+```math
+[q_12,q_23] = -(i/S) \chi.
 ```
 
 Further commutators close quadratically inside the same rotational scalar frame algebra. For example,
 
-```text
-i[q_12,chi]
- = ((S+1)/S^2)(q_31-q_23)
- + (1/(2S)){q_12,q_31-q_23},
+```math
+\begin{aligned}
+& i[q_12,\chi] \\
+ &= ((S+1)/S^{2})(q_31-q_23) \\
+&\quad + (1/(2S)){q_12,q_31-q_23},
+\end{aligned}
 ```
 
 with cyclic analogues. Matrix-fit residuals were ~`1e-15` for several spins.
@@ -2753,8 +2851,8 @@ The schedule-loop correction scales as
 
 For a block average of `n` independent local frames,
 
-```text
-[bar q_12, bar q_23] = -(i/(S n)) bar chi.
+```math
+[bar q_12, bar q_23] = -(i/(S n)) bar \chi.
 ```
 
 So the effective quantum-frame parameter is
@@ -2769,18 +2867,22 @@ No ferromagnetic global frame alignment is required. This is compatible with the
 
 For genuine N=216 local 2-switches:
 
-```text
-Delta B has rank 1 or 2 and support on touched vertices.
-Delta Ltilde has rank 2.
+```math
+\begin{aligned}
+& \Delta B has rank 1 or 2 and support on touched vertices. \\
+& \Delta \widetilde L has rank 2.
+\end{aligned}
 ```
 
 In a two-geometry sector `G <-> G'`, the three moving-graph Jacobi terms were individually nonzero (norms about `0.380, 0.426, 0.579` in one test) yet cancelled to machine zero.
 
 The variation of the spatial generator is exactly
 
-```text
-delta D[N,M]
- = M_N delta Ltilde M_M - M_M delta Ltilde M_N,
+```math
+\begin{aligned}
+& \delta D[N,M] \\
+ &= M_N \delta \widetilde L M_M - M_M \delta \widetilde L M_N,
+\end{aligned}
 ```
 
 with local finite-rank support.
@@ -2793,15 +2895,17 @@ This is a concrete finite analogue of field-dependent structure functions whose 
 
 For any three local coordinate/frame functions collected in `X`, the graph Dirichlet form is
 
-```text
-X^T Ltilde X
- = (1/06) sum_<uv> (X_u-X_v)(X_u-X_v)^T.
+```math
+\begin{aligned}
+& X^{T} \widetilde L X \\
+ &= (1/06) \sum_{<uv>} (X_u-X_v)(X_u-X_v)^{T}.
+\end{aligned}
 ```
 
 For a genuine 2-switch `m`,
 
-```text
-6 X^T (Delta Ltilde_m) X = delta h_m,
+```math
+6 X^{T} (\Delta \widetilde L_m) X = \delta h_m,
 ```
 
 where `delta h_m` is exactly the physical unnormalised metric-move tensor used in the kinetic/DeWitt calculations.
@@ -2810,10 +2914,12 @@ This identity was verified on 30 N=216 rewires with maximum relative error ~`3e-
 
 Therefore the effective supermetric can be written as the covariance of local Laplacian fluctuations:
 
-```text
-K_eff proportional to
-  sum_m w_m vec(X^T Delta Ltilde_m X)
-          vec(X^T Delta Ltilde_m X)^T.
+```math
+\begin{aligned}
+& K_{\mathrm{eff}} proportional to \\
+& \sum_{m} w_m vec(X^{T} \Delta \widetilde L_m X) \\
+& vec(X^{T} \Delta \widetilde L_m X)^{T}.
+\end{aligned}
 ```
 
 This is one of the deepest current consolidations:
@@ -2836,9 +2942,11 @@ The global H_mix reweighting could have cheated through cancellations between di
 
 Using purely local radius-R subgraph data and local diffusion frames:
 
-```text
-R=2: local exact isotropization usually fails.
-R=3: local positive reweighting succeeds robustly.
+```math
+\begin{aligned}
+R &= 2: local exact isotropization usually fails. \\
+R &= 3: local positive reweighting succeeds robustly.
+\end{aligned}
 ```
 
 Representative exact LP checks:
@@ -2865,9 +2973,11 @@ The repeated appearance of the scale 3 is now understood primarily as the first 
 
 Two independent N=344 3D amorphous seeds were generated using coordinates only to propose the initial graphs; all parent energies were then evaluated from adjacency alone. Short parent-only relaxation lowered them to approximately:
 
-```text
-E_344^(01) = -1.76249817
-E_344^(02) = -1.76246708
+```math
+\begin{aligned}
+E_344^{01} &= -1.76249817 \\
+E_344^{02} &= -1.76246708
+\end{aligned}
 ```
 
 with 3D-like finite heat-kernel profiles.
@@ -2878,7 +2988,7 @@ The seeds prove that the parent contains a competitive N~344 amorphous 3D basin.
 
 Using the N=128, N=216, and mean N=344 basin energies, a fit
 
-```text
+```math
 E_N = E_inf + a/N
 ```
 
@@ -2893,7 +3003,7 @@ with residuals at the few `1e-5` level.
 
 Relative to the analytic infinite cubic `Z^3` energy at the old parameter point,
 
-```text
+```math
 E_Z3,inf = -1.7617424011,
 ```
 
@@ -2937,11 +3047,13 @@ This section supersedes any earlier statement that the old `g=3, U=0.106, kappa=
 
 A coordinate-free generic triangle-free 6-regular N=344 graph was constructed as the bipartite double cover of a random 6-regular graph:
 
-```text
-E_start = -1.7502717391
-C4/N = 0.494186
-heat d_s(05) ~ 4.52
-heat d_s(10) ~ 4.33
+```math
+\begin{aligned}
+E_start &= -1.7502717391 \\
+C4/N &= 0.494186 \\
+& heat d_s(05) \sim 4.52 \\
+& heat d_s(10) \sim 4.33
+\end{aligned}
 ```
 
 This is an expander-like high-dimensional/disordered starting geometry.
@@ -2950,23 +3062,25 @@ This is an expander-like high-dimensional/disordered starting geometry.
 
 At that generic state, a 120-move exact sample gave
 
-```text
-Corr(Delta C4, Delta E) = -0.99178.
+```math
+Corr(\Delta C4, \Delta E) = -0.99178.
 ```
 
 Every sampled move with `Delta C4 > 0` was downhill in parent energy. Representative means:
 
-```text
-Delta C4 = +1 -> mean Delta E ~ -1.85e-5
-Delta C4 = +2 -> mean Delta E ~ -3.33e-5
-Delta C4 = +3 -> mean Delta E ~ -4.89e-5
-Delta C4 = +4 -> mean Delta E ~ -6.46e-5.
+```math
+\begin{aligned}
+\Delta C4 &= +1 \to mean \Delta E \sim -1.85e-5 \\
+\Delta C4 &= +2 \to mean \Delta E \sim -3.33e-5 \\
+\Delta C4 &= +3 \to mean \Delta E \sim -4.89e-5 \\
+\Delta C4 &= +4 \to mean \Delta E \sim -6.46e-5.
+\end{aligned}
 ```
 
 Strongest sampled moves reached `Delta C4=+6` with
 
-```text
-Delta E ~ -9.59e-5.
+```math
+\Delta E \sim -9.59e-5.
 ```
 
 This is the first clear microscopic nucleation clue:
@@ -2984,13 +3098,15 @@ A blind zero-temperature walk accepted **only `Delta E_parent < 0`**, with no di
 
 The trajectory evolved roughly:
 
-```text
-start:        E=-1.750272, C4/N=0.494
-200 attempts: E=-1.753740, C4/N=1.108
-500 total:    E=-1.756045, C4/N=1.570
-950 total:    E=-1.757749, C4/N=1.974
-1250 total:   E=-1.758523, C4/N=2.157
-2000 total:   E=-1.759842, C4/N=2.497.
+```math
+\begin{aligned}
+start:        E &= -1.750272, C4/N=0.494 \\
+200 attempts: E &= -1.753740, C4/N=1.108 \\
+500 total:    E &= -1.756045, C4/N=1.570 \\
+950 total:    E &= -1.757749, C4/N=1.974 \\
+1250 total:   E &= -1.758523, C4/N=2.157 \\
+2000 total:   E &= -1.759842, C4/N=2.497.
+\end{aligned}
 ```
 
 The heat-kernel dimension simultaneously drifted downward from strongly expander-like values:
@@ -3054,8 +3170,8 @@ A test of whether new squares preferentially form where squares already exist fo
 
 At an early N=344 nucleation state:
 
-```text
-Corr(Delta C4, local square participation) ~ -0.528.
+```math
+Corr(\Delta C4, local square participation) \sim -0.528.
 ```
 
 Square-gaining moves occurred in **less square-rich** supports than square-losing moves.
@@ -3080,22 +3196,24 @@ Thus the condensation is primarily an **additive local energetic drive**, not a 
 
 Combining N=128, 216, and 344 relation-condensation histories, the old-parameter energy is remarkably well fit by
 
-```text
-E(N,c) ~ E0 + a/N + b c + q c^2,
+```math
+E(N,c) \sim E0 + a/N + b c + q c^{2},
 ```
 
 where `c = C4/N`.
 
 Recovered fit:
 
-```text
-E0 ~ -1.7476669
-a  ~  0.0192003
-b  ~ -0.0057279
-q  ~  0.0005175
-R^2 ~ 0.99724
-RMSE ~2.26e-4
-c_star = -b/(2q) ~5.53.
+```math
+\begin{aligned}
+& E0 \sim -1.7476669 \\
+& a  \sim  0.0192003 \\
+& b  \sim -0.0057279 \\
+& q  \sim  0.0005175 \\
+& R^{2} \sim 0.99724 \\
+& RMSE ~2.26e-4 \\
+c_star &= -b/(2q) ~5.53.
+\end{aligned}
 ```
 
 Allowing mild `1/N` corrections to the `c` coefficients improves `R^2` to ~`0.99918`.
@@ -3119,8 +3237,8 @@ heat d_s(10)~2.19.
 
 This is lower than the old N=128/216/344 3D-like candidates at
 
-```text
-g=3, U=0.106, kappa=0.08.
+```math
+g=3, U=0.106, \kappa=0.08.
 ```
 
 Therefore the previous claim that this exact parameter point is a secure 3D global phase is **DEMOTED/KILLED**.
@@ -3165,9 +3283,11 @@ Re-evaluating the same N=344 condensation path at fixed `g=3,kappa=0.08` shows t
 
 For example:
 
-```text
-U <=~0.110 : best among sampled path states remains C4/N ~4.596
-U = 0.112 : best sampled path state moves to C4/N ~3.85.
+```math
+\begin{aligned}
+& U \le ~0.110 : best among sampled path states remains C4/N ~4.596 \\
+U &= 0.112 : best sampled path state moves to C4/N ~3.85.
+\end{aligned}
 ```
 
 This supports the Landau picture, but by itself does not establish a 3D global phase because rank-2 and cubic competitors must be reevaluated simultaneously.
@@ -3181,18 +3301,17 @@ A scan at `g=3` re-evaluated the N=344 relation-condensed states against both:
 
 A finite window appears at **larger determinant/spectral regularization kappa and slightly lower U**. Representative top scan points include:
 
-```text
-kappa=0.40, U=0.1020:
-  amorphous C4/N~4.596 beats both controls by margin ~7.15e-4
-
-kappa=0.35, U=0.1030:
-  margin ~6.25e-4
-
-kappa=0.30, U=0.1040:
-  margin ~5.36e-4
-
-kappa=0.25, U=0.1050:
-  margin ~4.46e-4.
+```math
+\begin{aligned}
+\kappa &= 0.40, U=0.1020: \\
+& amorphous C4/N~4.596 beats both controls by margin ~7.15e-4 \\
+\kappa &= 0.35, U=0.1030: \\
+& margin ~6.25e-4 \\
+\kappa &= 0.30, U=0.1040: \\
+& margin ~5.36e-4 \\
+\kappa &= 0.25, U=0.1050: \\
+& margin ~4.46e-4.
+\end{aligned}
 ```
 
 The scan found 155 tested parameter pairs where a relation-condensed amorphous state with `3 <= C4/N <=5` beat both rank-2 and cubic controls.
@@ -3286,11 +3405,13 @@ This is the mechanism the next chat should attack directly.
 
 A cleaner minimal gravity-side family can now be organized schematically as
 
-```text
-H_total = H_graph[A]
-        + H_med[A,chi]
-        + H_sched[B(A)]
-        + H_mix[Delta B, Delta L].
+```math
+\begin{aligned}
+H_{\mathrm{total}} &= H_{\mathrm{graph}}[A] \\
+&\quad + H_{\mathrm{med}}[A,\chi] \\
+&\quad + H_{\mathrm{sched}}[B(A)] \\
+&\quad + H_{\mathrm{mix}}[\Delta B, \Delta L].
+\end{aligned}
 ```
 
 with a matter/cell sector built from the same incidence complex.
@@ -3330,10 +3451,12 @@ The next pass should therefore attack the mechanism and the new parameter window
 
 Choose representative candidate points from the recovered scan, e.g.
 
-```text
-(g, kappa, U) = (3, 0.30, 0.104)
-                (3, 0.35, 0.103)
-                (3, 0.40, 0.102)
+```math
+\begin{aligned}
+(g, \kappa, U) &= (3, 0.30, 0.104) \\
+& (3, 0.35, 0.103) \\
+& (3, 0.40, 0.102)
+\end{aligned}
 ```
 
 with the same degree/triangle structure.
@@ -3376,12 +3499,14 @@ Do not merely observe `C4` correlation. Analytically/semianalytically expand the
 
 Target a decomposition like
 
-```text
-Delta E
- = -a Delta C4
-   + b Delta(local closed-walk concentration)
-   + c Delta(long-wave spectral term)
-   + higher motifs.
+```math
+\begin{aligned}
+& \Delta E \\
+ &= -a \Delta C4 \\
+&\quad + b \Delta(local closed-walk concentration) \\
+&\quad + c \Delta(long-wave spectral term) \\
+&\quad + higher motifs.
+\end{aligned}
 ```
 
 Then determine whether the capacity/determinant pieces generate a stable finite-density minimum analogous to the empirical Landau fit.
