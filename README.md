@@ -2,6 +2,11 @@
 
 This file is intended to update the current GitHub README without pretending the project is finished.
 
+# **Current strongest defensible claim:** 
+GWXP has constructed and numerically connected several finite relational structures needed by an emergent-gravity programme. The corrected graph-only parent shows autonomous relation condensation and has reached low-dimensional states below tested rank-2 controls without external coordinates or a hard locality cutoff. A separate exact finite pair-mediator construction supplies Hermitian soft-local graph hopping. What is not yet proved is that the fully combined parent possesses a stable thermodynamic 3D quantum phase with the complete first-class gravitational constraint structure, no extra low-energy modes, and nonlinear continuum GR universality.
+
+
+
 ## A. Updates 29/09/26 (Aussie)
 
 ```markdown
@@ -79,10 +84,6 @@ This is still a research programme, not a completed derivation of gravity.
 ---
 ```
 
-## C. The new “current strongest concise claim” 29/09/2026
-```markdown
-> **Current strongest defensible claim:** GWXP has constructed and numerically connected several finite relational structures needed by an emergent-gravity programme. The corrected graph-only parent shows autonomous relation condensation and has reached low-dimensional states below tested rank-2 controls without external coordinates or a hard locality cutoff. A separate exact finite pair-mediator construction supplies Hermitian soft-local graph hopping. What is not yet proved is that the fully combined parent possesses a stable thermodynamic 3D quantum phase with the complete first-class gravitational constraint structure, no extra low-energy modes, and nonlinear continuum GR universality.
-```
 
 ## D.  “Known corrections” Updates 29/09/26 (Aussie)
 
