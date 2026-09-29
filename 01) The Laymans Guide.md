@@ -7,8 +7,6 @@
 > It is **not** a proven theory of quantum gravity, not a peer-reviewed result, and not a claim that Einstein has been replaced. The repository contains a mixture of exact finite mathematics, numerical experiments, failed ideas, corrected mistakes, and a small number of genuinely difficult open questions.
 
 ---
-```math
-\widetilde A = D^{-1/2} A D^{-1/2}
 
 ## The 30-second version
 
@@ -262,8 +260,12 @@ A gapped relational mediator was constructed whose finite downfolding produces a
 
 That gave a genuine candidate quantum configuration-space Hamiltonian:
 
-```text
-H_total ≈ graph energy + quantum graph hopping
+```math
+H_{\mathrm{total}}
+\approx
+H_{\mathrm{graph}}
++
+H_{\mathrm{quantum\ hopping}}
 ```
 
 Small exact sectors of that combined Hamiltonian were then diagonalised.
@@ -494,13 +496,18 @@ The file [`04) Known Issues and Corrections - 2026-09-29.md`](04%29%20Known%20Is
 
 The frozen candidate is schematically:
 
-```text
-H_total
- = graph-selection energy
- + soft quantum graph-rewrite mediator
- + local schedule / incidence sector
- + rotational closure sector H_mix
- + matter / local-cell sector.
+```math
+H_{\mathrm{total}}
+=
+H_{\mathrm{graph}}
++
+H_{\mathrm{med}}
++
+H_{\mathrm{sched}}
++
+H_{\mathrm{mix}}
++
+H_{\mathrm{matter}}
 ```
 
 Or even more simply:
