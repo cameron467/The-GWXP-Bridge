@@ -7,6 +7,102 @@ GWXP asks whether a finite relational quantum system can have a low-energy phase
 
 The project has **not** derived general relativity from finite information. It has accumulated a collection of exact finite constructions, numerical phase evidence, failed mechanisms, and explicit kill criteria that now reduce the remaining problem to a small number of difficult integration questions.
 
+
+## GWXP at a glance
+
+```mermaid
+flowchart TD
+
+    A["Finite relational quantum substrate<br/>No background spacetime assumed"]
+
+    A --> B["Dynamical graph / link degrees of freedom<br/>Permutation-invariant microscopic description"]
+
+    B --> C["Graph-selection parent<br/>Valence + triangle frustration + communicability<br/>+ capacity + spectral competition"]
+
+    C --> D["Autonomous relation condensation<br/>Generic graphs evolve toward lower-dimensional structure"]
+
+    D --> E["Approx. 3D amorphous graph basin<br/>Observed at N = 128, 216, 344"]
+
+    E --> F["Same graph Laplacian / incidence structure<br/>Propagation + schedule algebra + matter carrier"]
+
+    F --> G["Relational frame / metric sector<br/>Qᶦʲ from graph/frame degrees"]
+
+    G --> H["Finite schedule / refoliation algebra<br/>Normal × normal → spatial"]
+
+    H --> I["Hypersurface-deformation structure<br/>D[Qᶦʲ(N∂ⱼM − M∂ⱼN)]"]
+
+    G --> I
+
+    I --> J["Constraint-preservation rigidity"]
+
+    J --> K["Fierz–Pauli / linearized Einstein<br/>spatial operator"]
+
+    J --> L["DeWitt kinetic ray<br/>πᵢⱼ − ½δᵢⱼπ"]
+
+    J --> M["TEGR torsion ray<br/>(1, 2, −4)"]
+
+    K --> N["Exactly two tensor modes"]
+    L --> N
+    M --> N
+
+    B --> O["Degree-preserving graph rewrites<br/>2-switch amplitude ∝ 20Γ⁴/λ³"]
+
+    O --> P["Gapped relational pair mediator<br/>Soft graph-local hopping"]
+
+    P --> Q["Quantum configuration-space Hamiltonian<br/>Hgraph + Hmed"]
+
+    Q --> R["Finite-sector ground states remain<br/>concentrated in relation-rich basin"]
+
+    G --> S["Metric rewrite tensor<br/>δh = 6 Xᵀ ΔL̃ X"]
+
+    S --> T["Physical kinetic covariance<br/>Keff ∝ Σₘ wₘ vec(δhₘ) vec(δhₘ)ᵀ"]
+
+    T --> U["Bare Keff retains spin-4 anisotropy<br/>ε₄ ≈ 0.25, 0.39, 0.50"]
+
+    U --> V["Local Hmix / schedule-frustration sector<br/>must dynamically isotropize Keff"]
+
+    V --> W["R = 4 local move cones can support<br/>exact isotropic nonzero shear"]
+
+    W --> X["Microscopic Hmix weight-selection mechanism<br/>NOT YET DERIVED"]
+
+    F --> Y["Finite z = 1 matter branch"]
+
+    Y --> Z["Local polygonal curl / Hodge repair<br/>removes edge-cycle zero modes"]
+
+    Z --> AA["Finite curl gap survives<br/>N = 128, 216, 344"]
+
+    N --> AB["GR / TEGR two-derivative IR<br/>conditional on full first-class phase"]
+
+    X --> AC["CURRENT MAIN OPEN PROBLEM<br/>One autonomous parent must generate<br/>local isotropic Keff + genuine first-class constraints"]
+
+    I --> AC
+    N --> AC
+
+    AC --> AD["Nonlinear continuum closure<br/>Thermodynamic / many-body proof"]
+
+    classDef exact fill:#1f6f43,color:#fff,stroke:#14472d,stroke-width:2px;
+    classDef derived fill:#245b8a,color:#fff,stroke:#153a59,stroke-width:2px;
+    classDef numerical fill:#8a6d1d,color:#fff,stroke:#5c4913,stroke-width:2px;
+    classDef conditional fill:#6b4c8a,color:#fff,stroke:#44305a,stroke-width:2px;
+    classDef failed fill:#9c4a18,color:#fff,stroke:#66300f,stroke-width:3px;
+    classDef open fill:#8a2f2f,color:#fff,stroke:#581e1e,stroke-width:3px;
+
+    class A,B,C derived;
+    class D,E numerical;
+    class F,G,H,I,J,K,L,M,S exact;
+    class N,AB conditional;
+    class O,P derived;
+    class Q,R numerical;
+    class T derived;
+    class U failed;
+    class V,W numerical;
+    class X,AC,AD open;
+    class Y,Z derived;
+    class AA numerical;
+```
+
+**Reading the diagram:** green/blue boxes are exact or analytically derived structures within GWXP; gold boxes are finite numerical evidence; purple boxes are conditional continuum conclusions. The orange box is an important negative result: the bare physical kinetic tensor remains rank-4 anisotropic. The red path is therefore the current handoff problem — deriving a genuinely microscopic local `H_mix` / schedule-frustration mechanism that isotropizes `K_eff`, and then proving that the resulting extended parent forms a first-class nonlinear gravitational phase.
+
 ## Current candidate
 
 The frozen schematic parent is
