@@ -1,4 +1,3 @@
-
 # GWXP — Mathematical Core
 
 > **Freeze date:** 29 September 2026  
@@ -665,15 +664,11 @@ For a soft hierarchy
 
 representative exact finite curl gaps are
 
-```math
-\begin{array}{c|ccc}
-\rho_f & N=128 & N=216 & N=344\\
-\hline
-0.10 & 0.006735 & 0.003982 & 0.002791\\
-0.20 & 0.034515 & 0.029971 & 0.039429\\
-0.30 & 0.084391 & 0.095977 & 0.182344
-\end{array}
-```
+| `rho_f` | `N=128` | `N=216` | `N=344` |
+|---:|---:|---:|---:|
+| 0.10 | 0.006735 | 0.003982 | 0.002791 |
+| 0.20 | 0.034515 | 0.029971 | 0.039429 |
+| 0.30 | 0.084391 | 0.095977 | 0.182344 |
 
 using all local cycles through the spanning length.
 
@@ -687,17 +682,11 @@ A uniform thermodynamic curl gap remains **OPEN**.
 
 At the frozen graph couplings, corrected coordinate-free autonomous states give
 
-```math
-\begin{array}{c|cc}
-N &
-E_{\rm auto}/N &
-E_{\rm best\ scanned\ Abelian/Cayley}/N\\
-\hline
-128 & -1.301651700 & -1.301602474\\
-216 & -1.302092376 & -1.301972547\\
-344 & -1.302342902 & -1.302071375
-\end{array}
-```
+| `N` | autonomous `E/N` | best scanned Abelian/Cayley `E/N` |
+|---:|---:|---:|
+| 128 | -1.301651700 | -1.301602474 |
+| 216 | -1.302092376 | -1.301972547 |
+| 344 | -1.302342902 | -1.302071375 |
 
 with finite spectral-dimension diagnostics around
 
