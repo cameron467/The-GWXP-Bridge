@@ -111,11 +111,12 @@ The frozen schematic parent is
 
 ```math
 \begin{aligned}
-H_{\mathrm{total}} &= H_{\mathrm{graph}}[A] \\
-&\quad + H_{\mathrm{med}}[A, \chi] \\
+H_{\mathrm{total}}
+&= H_{\mathrm{graph}}[A] \\
+&\quad + H_{\mathrm{med}}[A,\chi] \\
 &\quad + H_{\mathrm{sched}}[B(A)] \\
-&\quad + H_{\mathrm{mix}}[local \Delta L statistics / schedule frustration] \\
-&\quad + H_{\mathrm{matter}}[B(A), local cells].
+&\quad + H_{\mathrm{mix}}[\mathrm{local}\ \Delta\widetilde L\ \mathrm{statistics/schedule\ frustration}] \\
+&\quad + H_{\mathrm{matter}}[B(A),\mathrm{local\ cells}] .
 \end{aligned}
 ```
 
@@ -123,11 +124,12 @@ The graph sector currently studied is
 
 ```math
 \begin{aligned}
-H_{\mathrm{graph}} &= H_{\mathrm{degree}} \\
+H_{\mathrm{graph}}
+&= H_{\mathrm{degree}} \\
 &\quad + \tau T[A] \\
-&\quad - J \operatorname{Tr} \exp(g \widetilde A) \\
-&\quad + U sum_(ij in E) [\exp(g \widetilde A)]_{ij}^{2} \\
-&\quad - \kappa log \det(\epsilon I + \widetilde L),
+&\quad - J\,\mathrm{Tr}\!\left(e^{g\widetilde A}\right) \\
+&\quad + U\sum_{(ij)\in E}\left[e^{g\widetilde A}\right]_{ij}^{2} \\
+&\quad - \kappa\log\det\!\left(\epsilon I+\widetilde L\right) .
 \end{aligned}
 ```
 
@@ -155,11 +157,14 @@ its effective Hermitian configuration-space hopping is
 
 ```math
 \begin{aligned}
-t_{GG}' &= -\eta [ \\
-& R_G(a,c) R_G(b,d) \\
-&\quad + R_G'(a,b) R_G'(c,d) \\
-& ], \\
-R_G &= (I - rho_m A_G)^{-1}.
+t_{GG'}
+&= -\eta\left[
+R_G(a,c)R_G(b,d)
++
+R_{G'}(a,b)R_{G'}(c,d)
+\right], \\
+R_G
+&= \left(I-\rho_m A_G\right)^{-1}.
 \end{aligned}
 ```
 
@@ -201,7 +206,7 @@ The current project does **not** get isotropic graviton kinetics for free from a
 Using the exact metric-move identity
 
 ```math
-6 X^T (\Delta Ltilde_m) X = \delta h_m
+6X^{T}\left(\Delta\widetilde L_m\right)X=\delta h_m
 ```
 
 and the corrected mediator channel weights, the bare physical kinetic covariance remains strongly spin-4 anisotropic after whitening the rank-2 metric.
