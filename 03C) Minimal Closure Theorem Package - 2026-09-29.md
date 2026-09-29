@@ -19,19 +19,19 @@ No external coordinates, dimension target, hard graph-distance cutoff, or geomet
 
 There exists a finite-range microscopic `H_mix` / schedule-frustration term, defined independently of the desired continuum tensor, whose low-energy measure produces
 
-\[
+```math
 K_{\rm eff}^{ijkl}
 =
 K_{\rm iso}^{ijkl}
 +
 o(1)
-\]
+```
 
 with a finite positive shear coefficient and
 
-\[
+```math
 c_4(N)\to0.
-\]
+```
 
 **Current status:** OPEN. Radius-four local move cones show feasibility; the selecting dynamics is not derived.
 
@@ -43,11 +43,11 @@ Within the same thermodynamic phase, there exist local low-energy scalar and spa
 
 Schematically,
 
-\[
+```math
 [H[N],H[M]]
 \to
 D[Q^{ij}(N\partial_jM-M\partial_jN)].
-\]
+```
 
 **Current status:** OPEN. Exact finite algebraic ancestors exist.
 
@@ -91,20 +91,20 @@ A strong completion would show that the same parent generates the appropriate ho
 
 GWXP should be called *closed* only when the chain
 
-\[
-\text{one autonomous finite parent}
+```math
+\mathrm{one autonomous finite parent}
 \rightarrow
-\text{3D relational phase}
+\mathrm{3D relational phase}
 \rightarrow
-\text{local isotropic spin-2 kinetics}
+\mathrm{local isotropic spin-2 kinetics}
 \rightarrow
-\text{first-class constraints}
+\mathrm{first-class constraints}
 \rightarrow
-\text{two healthy tensor modes}
+\mathrm{two healthy tensor modes}
 \rightarrow
-\text{shared matter/gravity metric}
+\mathrm{shared matter/gravity metric}
 \rightarrow
-\text{nonlinear Einstein/TEGR IR}
-\]
+\mathrm{nonlinear Einstein/TEGR IR}
+```
 
 is realized without manually encoding the target continuum gravitational constraints.
