@@ -900,11 +900,11 @@ The strongest mathematically defensible summary is:
 ```math
 \boxed{
 \begin{gathered}
-\mathrm{many required finite algebraic structures exist,}\\
-\mathrm{a competitive autonomous low-dimensional graph basin exists numerically,}\\
-\mathrm{the corrected mediator is finite, Hermitian and relationally local,}\\
-\mathrm{but bare graviton kinetics remain spin-four anisotropic,}\\
-\mathrm{and the one-parent first-class thermodynamic phase is unproved.}
+\mathrm{many_required_finite_algebraic_structures_exist,}\\
+\mathrm{a_competitive_autonomous_low-dimensional_graph_basin_exists_numerically,}\\
+\mathrm{the_corrected_mediator_is_finite,_Hermitian_and_relationally_local,}\\
+\mathrm{but_bare_graviton_kinetics_remain_spin-four_anisotropic,}\\
+\mathrm{and_the_one-parent_first-class_thermodynamic_phase_is_unproved.}
 \end{gathered}
 }
 ```
