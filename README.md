@@ -1,3 +1,5 @@
+*Please note: a few format errors might still exist in this doc, I fixed as much as I could but it's midnight, I'll fix tomorrow!)
+
 # GWXP — Finite Relational Quantum Structure and Emergent Gravity
 
 > **Status: pre-handoff research candidate, not a completed theory.**  
