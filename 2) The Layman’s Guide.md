@@ -6,8 +6,6 @@
 > **What is it not?**  
 > It is **not** a proven theory of quantum gravity, not a peer-reviewed result, and not a claim that Einstein has been replaced. The repository contains a mixture of exact finite mathematics, numerical experiments, failed ideas, corrected mistakes, and a small number of genuinely difficult open questions.
 
-If you know me from work and have landed here wondering why there are hundreds of Python simulations and equations about gravitons in my GitHub: this page is for you.
-
 ---
 
 ## The 30-second version
@@ -387,6 +385,60 @@ The colourful “cosmic ledger / compression” language is best understood as t
 
 ---
 
+# The speculative black-hole branch, visually
+
+GWXP also explored whether the same moving relational/code language could say anything useful about black-hole response.
+
+This branch is **not part of the core evidence for the graph phase**, and it is **not a derivation of Schwarzschild or Kerr black holes**. Some steps below are exact finite or structural statements; the identification with real black-hole physics is still conditional or speculative.
+
+```mermaid
+flowchart TD
+
+    A["Emergent metric + moving protected code"]
+
+    A --> B["Isospectral code orbit<br/>H(λ) = U(λ) H₀ U†(λ)"]
+
+    B --> C["Exact static cancellation on that orbit<br/>χ(0) = 0"]
+
+    C --> D["Candidate analogue of<br/>zero static tidal Love response"]
+
+    B --> E["Time-dependent code motion<br/>can still drive transitions"]
+
+    E --> F["Candidate analogue of<br/>dynamical absorption"]
+
+    A --> G["Local normal / cut deformation<br/>bᵧ"]
+
+    G --> H["Microscopic outgoing-expansion variable<br/>Θₓ⁺"]
+
+    H --> I["Cross-Jacobian target<br/>Lᵐⁱᶜʳᵒₓᵧ = δΘₓ⁺ / δbᵧ"]
+
+    I --> J["Directed normal-bundle connection<br/>MOTS-form stability operator target"]
+
+    J --> K["Marginal principal mode<br/>continuum horizon criterion"]
+
+    K --> L["Generic fold near marginality<br/>amplitude ∝ |μ − μc|¹ᐟ²"]
+
+    L --> M["SPECULATIVE<br/>horizon formation as loss of<br/>geometric-code stability"]
+
+    A --> N["Continuum effective boost / area response"]
+    N --> O["δS = δA / 4G<br/>if the GR infrared coefficient is already fixed"]
+    O --> P["Does NOT count microscopic<br/>black-hole states"]
+
+    classDef exact fill:#1f6f43,color:#fff,stroke:#14472d,stroke-width:2px;
+    classDef structural fill:#245b8a,color:#fff,stroke:#153a59,stroke-width:2px;
+    classDef conditional fill:#8a6d1d,color:#fff,stroke:#5c4913,stroke-width:2px;
+    classDef speculative fill:#8a2f2f,color:#fff,stroke:#581e1e,stroke-width:3px;
+
+    class B,C exact;
+    class E,G,H,I,J,N,O,P structural;
+    class D,F,K,L conditional;
+    class M speculative;
+```
+
+The strongest statement here is therefore **structural**, not phenomenological: a moving-code construction can give exact zero static response on an isospectral orbit while retaining dynamical response, and the correct microscopic analogue of a generic horizon-stability operator should be a directed deformation-to-expansion Jacobian rather than an ordinary symmetric susceptibility. Whether the autonomous GWXP parent actually generates the required black-hole sector remains open.
+
+---
+
 # What has actually been shown inside the project?
 
 There are several different evidence levels in the repository.
@@ -432,7 +484,7 @@ Examples include:
 - the old robust radius-3 `H_mix` claim did not survive a stronger test;
 - a universal hard cycle cutoff at length 7 is false.
 
-The file [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md) exists specifically so none of these corrections are buried.
+The file [`04) Known Issues and Corrections - 2026-09-29.md`](04%29%20Known%20Issues%20and%20Corrections%20-%202026-09-29.md) exists specifically so none of these corrections are buried.
 
 ---
 
@@ -587,7 +639,7 @@ For that reason the repository preserves:
 - explicit evidence labels;
 - reproducible scripts and raw finite outputs.
 
-See [`AI_ASSISTANCE.md`](AI_ASSISTANCE.md) for the formal disclosure.
+See [`06) AI Assistance Disclosure.md`](06%29%20AI%20Assistance%20Disclosure.md) for the formal disclosure.
 
 ---
 
@@ -611,7 +663,7 @@ The package includes a lightweight test runner that recomputes several authorita
 
 ---
 
-# If you are from work and only want the interesting bits
+# If you only want the interesting bits
 
 Here is the short version I would tell you over lunch:
 
@@ -632,15 +684,15 @@ Here is the short version I would tell you over lunch:
 
 If you are **not a physicist**, I would read in this order:
 
-1. **This file** — `README_LAYMAN.md`
-2. [`STATUS.md`](STATUS.md) — one-page technical claim ledger
-3. [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md) — the mistakes and negative results
-4. [`docs/GWXP_FROZEN_CANDIDATE_PARENT_2026-09-29.md`](docs/GWXP_FROZEN_CANDIDATE_PARENT_2026-09-29.md) — the actual frozen model
-5. [`docs/GWXP_PREHANDOFF_FINAL_PASS_2026-09-29.md`](docs/GWXP_PREHANDOFF_FINAL_PASS_2026-09-29.md) — what happened in the final tests
+1. **This file** — `01) The Laymans Guide.md`
+2. [`02) Project Status - 2026-09-29.md`](02%29%20Project%20Status%20-%202026-09-29.md) — one-page technical claim ledger
+3. [`04) Known Issues and Corrections - 2026-09-29.md`](04%29%20Known%20Issues%20and%20Corrections%20-%202026-09-29.md) — the mistakes and negative results
+4. [`docs/01) Frozen Candidate Parent - 2026-09-29.md`](docs/01%29%20Frozen%20Candidate%20Parent%20-%202026-09-29.md) — the actual frozen model
+5. [`docs/02) Pre-Handoff Final Pass - 2026-09-29.md`](docs/02%29%20Pre-Handoff%20Final%20Pass%20-%202026-09-29.md) — what happened in the final tests
 
 If you **are** a physicist or graph theorist, start with the frozen candidate, evidence ledger, known issues, and reproducibility notes.
 
-If you want to **rerun things**, see [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) and [`scripts/`](scripts/).
+If you want to **rerun things**, see [`05) Reproducibility Guide.md`](05%29%20Reproducibility%20Guide.md) and [`scripts/`](scripts/).
 
 ---
 
@@ -706,6 +758,10 @@ not finished physics
 
 but also
 
+not just the original weekend metaphor anymore.
+```
+
+The next meaningful step is independent specialist scrutiny.
 not just the original weekend metaphor anymore.
 ```
 
