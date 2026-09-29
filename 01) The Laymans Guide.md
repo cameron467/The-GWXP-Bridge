@@ -5,7 +5,9 @@
 >
 > **What is it not?**  
 > It is **not** a proven theory of quantum gravity, not a peer-reviewed result, and not a claim that Einstein has been replaced. The repository contains a mixture of exact finite mathematics, numerical experiments, failed ideas, corrected mistakes, and a small number of genuinely difficult open questions.
-
+$$
+\widetilde A = D^{-1/2} A D^{-1/2}
+$$
 ---
 
 ## The 30-second version
