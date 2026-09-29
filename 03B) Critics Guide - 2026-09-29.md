@@ -30,34 +30,34 @@ The most important negative result is already internal to the project.
 
 The physical kinetic covariance is built from
 
-\[
+```math
 K_{\rm eff}
 \propto
 \sum_m
 w_m\,
 {\rm vec}(\delta h_m)
 {\rm vec}(\delta h_m)^T,
-\]
+```
 
 with
 
-\[
+```math
 \delta h_m
 =
 6X^T(\Delta\widetilde L_m)X.
-\]
+```
 
 Using mediator-derived channel weights and whitening the rank-two metric, the measured spin-four residuals are approximately
 
-\[
+```math
 0.249,\quad0.387,\quad0.499
-\]
+```
 
 for
 
-\[
+```math
 N=128,\quad216,\quad344.
-\]
+```
 
 That trend does **not** support naive self-averaging to zero.
 
@@ -71,9 +71,9 @@ If the answer is “because those weights make the graviton isotropic,” the co
 
 Specify one local microscopic \(H_{\rm mix}\), before inspecting the desired tensor, and show that its equilibrium or ground-state measure drives
 
-\[
+```math
 c_4(N)\to0
-\]
+```
 
 while maintaining finite positive shear stiffness.
 
@@ -87,15 +87,15 @@ At radius four, the local move cone contains positive combinations producing iso
 
 That establishes:
 
-\[
-\text{isotropy is geometrically feasible}.
-\]
+```math
+\mathrm{isotropy is geometrically feasible}.
+```
 
 It does **not** establish:
 
-\[
-\text{the microscopic model dynamically selects isotropy}.
-\]
+```math
+\mathrm{the microscopic model dynamically selects isotropy}.
+```
 
 Some successful maximum-entropy witnesses require rare channels to be enhanced strongly relative to their mediator prior.
 
@@ -115,7 +115,7 @@ If the required weighting remains an optimizer output rather than a dynamical co
 
 The graph Hamiltonian contains several deliberate ingredients:
 
-\[
+```math
 H_{\rm degree},
 \qquad
 \tau T,
@@ -125,7 +125,7 @@ H_{\rm degree},
 U\sum [e^{g\widetilde A}]_{ij}^2,
 \qquad
 -\kappa\log\det(\epsilon I+\widetilde L).
-\]
+```
 
 Each has an internal motivation, but the combination itself is not uniquely derived from a smaller principle.
 
@@ -149,17 +149,17 @@ The degree penalty can select any target degree \(k\).
 
 The current geometric phase uses
 
-\[
+```math
 k=6.
-\]
+```
 
 The mathematical selection of a chosen \(k\) is clean.
 
 The deeper question is why the microscopic theory should land on
 
-\[
+```math
 k=6
-\]
+```
 
 rather than \(4,5,7,\ldots\).
 
@@ -178,9 +178,9 @@ At present the latter is the safer description.
 
 The corrected autonomous states at
 
-\[
+```math
 N=128,\ 216,\ 344
-\]
+```
 
 beat the tested Abelian/Cayley competitor set.
 
@@ -190,9 +190,9 @@ It is not a thermodynamic theorem.
 
 The states are not equally relaxed, and the spectral-dimension diagnostic drifts:
 
-\[
+```math
 d_s(5)\approx3.04,\ 3.21,\ 3.37.
-\]
+```
 
 A critic should ask:
 
@@ -236,15 +236,15 @@ Beating the current adversary set is not equivalent to proving global minimality
 
 The project correctly separated:
 
-\[
-\text{energy landscape}
-\]
+```math
+\mathrm{energy landscape}
+```
 
 from
 
-\[
-\text{quantum configuration-space dynamics}.
-\]
+```math
+\mathrm{quantum configuration-space dynamics}.
+```
 
 Earlier zero-temperature graph descent was useful for landscape discovery but was not the microscopic quantum dynamics.
 
@@ -276,9 +276,9 @@ If not, GWXP should describe \(H_{\rm med}\) as a model ingredient rather than a
 
 Also test the near-critical tradeoff:
 
-\[
+```math
 \rho_m\to\frac16
-\]
+```
 
 increases long-range amplitude but shrinks the mediator gap.
 
@@ -290,21 +290,21 @@ A useful theory needs a robust window in which the mediator is both sufficiently
 
 There are two rewrite-related results:
 
-\[
+```math
 |t_{\rm switch}|
 =
 20\Gamma^4/\lambda^3
-\]
+```
 
 from the strong-valence single-link-flip expansion, and
 
-\[
+```math
 t_{GG'}
 =
 -\eta[
 R_G(a,c)R_G(b,d)+R_{G'}(a,b)R_{G'}(c,d)
 ]
-\]
+```
 
 from the pair mediator.
 
@@ -325,25 +325,25 @@ The frozen model should avoid hidden double counting.
 
 The exact identity
 
-\[
+```math
 [K[N],K[M]]_{\rm vertex}
 =
 M_N\widetilde L M_M-M_M\widetilde L M_N
-\]
+```
 
 is mathematically interesting.
 
 But a critic should distinguish:
 
-\[
-\text{finite algebraic analogue}
-\]
+```math
+\mathrm{finite algebraic analogue}
+```
 
 from
 
-\[
-\text{genuine local first-class constraint algebra}.
-\]
+```math
+\mathrm{genuine local first-class constraint algebra}.
+```
 
 The missing issues include:
 
@@ -380,9 +380,9 @@ The project itself now recognizes this distinction.
 
 The count
 
-\[
+```math
 6-3-1=2
-\]
+```
 
 is necessary for a metric graviton sector.
 
@@ -430,19 +430,19 @@ The black-hole material contains elegant structural observations, but it is down
 
 The exact statement
 
-\[
+```math
 \chi(0)=0
-\]
+```
 
 on an isospectral code orbit is not equivalent to deriving the Love numbers of Schwarzschild or Kerr.
 
 The corrected MOTS target
 
-\[
+```math
 L^{\rm micro}_{xy}
 =
 \frac{\delta\Theta_x^+}{\delta b_y}
-\]
+```
 
 is a proposal for the right type of microscopic object.
 
@@ -450,9 +450,9 @@ It is not yet produced by the autonomous parent.
 
 A critic should treat the black-hole branch as:
 
-\[
-\boxed{\text{speculative structural extension}}
-\]
+```math
+\boxed{\mathrm{speculative structural extension}}
+```
 
 until the core gravity phase is independently established.
 
@@ -516,9 +516,9 @@ A critic should not accept one good parameter point.
 
 For the graph phase, require an open region in
 
-\[
+```math
 (g,U,\kappa,\epsilon,\tau,\ldots)
-\]
+```
 
 where:
 
@@ -562,9 +562,9 @@ Run independently generated systems at substantially larger \(N\), same frozen c
 
 Measure:
 
-\[
+```math
 E/N,\quad d_s(t),\quad \lambda_1,\quad D,\quad B_r,\quad \epsilon_4.
-\]
+```
 
 If effective dimension drifts systematically away from three, the current phase claim weakens sharply.
 
@@ -578,9 +578,9 @@ Then simulate or analytically integrate it out.
 
 If
 
-\[
+```math
 c_4(N)\not\to0
-\]
+```
 
 or the shear coefficient collapses, the graviton sector fails.
 
@@ -651,3 +651,4 @@ The strongest fair skeptical summary is:
 > GWXP contains several nontrivial exact finite identities and a numerically interesting dynamical-graph phase, but it has not yet shown that one natural microscopic Hamiltonian produces an isotropic massless spin-2 gauge phase in the thermodynamic limit. The bare kinetic tensor presently fails isotropy, and the proposed repair is feasible but not microscopically derived. The finite schedule algebra is suggestive but is not yet a demonstrated first-class gravitational constraint phase.
 
 That is the standard the project should try to beat.
+
