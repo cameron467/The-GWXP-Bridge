@@ -8,11 +8,20 @@
 
 For adjacency `A`, define
 
-```text
-Atilde = D^(-1/2) A D^(-1/2)
-Ltilde = I - Atilde
-K_g     = exp(g Atilde)
-```
+with:
+
+```markdown
+$$
+\widetilde A = D^{-1/2} A D^{-1/2}
+$$
+
+$$
+\widetilde L = I - \widetilde A
+$$
+
+$$
+K_g = e^{g\widetilde A}
+$$
 
 and the graph energy
 
