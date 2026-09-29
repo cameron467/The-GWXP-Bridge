@@ -8,20 +8,11 @@
 
 For adjacency `A`, define
 
-with:
-
-```markdown
-$$
-\widetilde A = D^{-1/2} A D^{-1/2}
-$$
-
-$$
-\widetilde L = I - \widetilde A
-$$
-
-$$
-K_g = e^{g\widetilde A}
-$$
+```text
+Atilde = D^(-1/2) A D^(-1/2)
+Ltilde = I - Atilde
+K_g     = exp(g Atilde)
+```
 
 and the graph energy
 
@@ -32,7 +23,6 @@ H_graph = H_degree
         + U sum_(ij in E) [K_g]_{ij}^2
         - kappa log det(epsilon I + Ltilde).
 ```
-
 The degree term may be written
 
 ```text
