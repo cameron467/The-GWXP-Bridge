@@ -892,12 +892,10 @@ GWXP should be considered falsified or substantially damaged if any of the follo
 9. the desired closure works only after explicitly inserting GR's constraint tensors by hand.
 
 ---
-
 # 23. Formal bottom line
 
 The strongest mathematically defensible summary is:
 
-```math
 > **Formal bottom line**
 >
 > Many required finite algebraic structures exist;  
@@ -905,7 +903,5 @@ The strongest mathematically defensible summary is:
 > the corrected mediator is finite, Hermitian and relationally local;  
 > but bare graviton kinetics remain spin-4 anisotropic;  
 > and the one-parent first-class thermodynamic phase is unproved.
-
-```
 
 The remaining problem is an **integration theorem**, not the absence of candidate ingredients.
