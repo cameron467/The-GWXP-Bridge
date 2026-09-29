@@ -898,14 +898,13 @@ GWXP should be considered falsified or substantially damaged if any of the follo
 The strongest mathematically defensible summary is:
 
 ```math
-\boxed{
-\begin{gathered}
-\mathrm{many_required_finite_algebraic_structures_exist,}\\
-\mathrm{a_competitive_autonomous_low-dimensional_graph_basin_exists_numerically,}\\
-\mathrm{the_corrected_mediator_is_finite,_Hermitian_and_relationally_local,}\\
-\mathrm{but_bare_graviton_kinetics_remain_spin-four_anisotropic,}\\
-\mathrm{and_the_one-parent_first-class_thermodynamic_phase_is_unproved.}
-\end{gathered}
+> **Formal bottom line**
+>
+> Many required finite algebraic structures exist;  
+> a competitive autonomous low-dimensional graph basin exists numerically;  
+> the corrected mediator is finite, Hermitian and relationally local;  
+> but bare graviton kinetics remain spin-4 anisotropic;  
+> and the one-parent first-class thermodynamic phase is unproved.
 }
 ```
 
