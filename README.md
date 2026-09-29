@@ -2,7 +2,7 @@
 
 This file is intended to update the current GitHub README without pretending the project is finished.
 
-## A. Replace the current top status block with
+## A. Updates 29/09/26 (Aussie)
 
 ```markdown
 > **Status:** active research programme / pre-handoff checkpoint  
@@ -10,7 +10,7 @@ This file is intended to update the current GitHub README without pretending the
 > **Not yet shown:** that one frozen microscopic Hamiltonian has a stable thermodynamic 3D quantum phase with the full first-class scalar/spatial constraint structure, an isotropic downfolded rank-4 kinetic tensor, exactly two healthy gapless tensor modes, and nonlinear continuum GR universality.
 ```
 
-## B. Insert this section after “What this project is actually about”
+## B. Updates 29/09/26 (Aussie)
 
 ```markdown
 ---
@@ -85,7 +85,7 @@ This is still a research programme, not a completed derivation of gravity.
 > **Current strongest defensible claim:** GWXP has constructed and numerically connected several finite relational structures needed by an emergent-gravity programme. The corrected graph-only parent shows autonomous relation condensation and has reached low-dimensional states below tested rank-2 controls without external coordinates or a hard locality cutoff. A separate exact finite pair-mediator construction supplies Hermitian soft-local graph hopping. What is not yet proved is that the fully combined parent possesses a stable thermodynamic 3D quantum phase with the complete first-class gravitational constraint structure, no extra low-energy modes, and nonlinear continuum GR universality.
 ```
 
-## D. Add this short “Known corrections” block near the end
+## D.  “Known corrections” Updates 29/09/26 (Aussie)
 
 ```markdown
 ## Known corrections / demotions
