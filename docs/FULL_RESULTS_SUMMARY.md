@@ -235,7 +235,7 @@ At the lowest parity-even background-free polynomial order, this supplies the na
 For finite `Q` over `Z_p`, the gauge-fixed fiber dimension behaves as
 
 ```math
-p^{3-\operatorname{rank}Q}.
+p^{3-\mathrm{rank}\,Q}.
 ```
 
 Full rank therefore gives a constant one-dimensional gauge fiber; degenerate frames enlarge it.
