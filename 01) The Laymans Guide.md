@@ -1,3 +1,14 @@
+
+> [!NOTE]
+> **SUPERSEDED REPOSITORY**  
+> This repository represents the initial prototype for the rank-21 Hyperbolic Dirac Algebra (HDA) operator bridge.  
+> Active development, finite-size scaling diagnostics, and the main executable codebase have moved to **[Spacetime-Relational-Drift](https://github.com/cameron467/Spacetime-Relational-Drift)**.
+
+
+
+
+
+
 # GWXP — The Layman’s Guide
 
 > **What is this?**  
