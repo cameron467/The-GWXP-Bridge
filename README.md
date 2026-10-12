@@ -4,6 +4,7 @@
 > This repository represents the initial prototype for the rank-21 Hyperbolic Dirac Algebra (HDA) operator bridge.  
 > Active development, finite-size scaling diagnostics, and the main executable codebase have moved to **[Mathematical-Framework-For-Emergent-Spacetime](https://github.com/cameron467/Mathematical-Framework-For-Emergent-Spacetime)**.
 
+(The 3D graphing with the Hamiltonian selected was a false positive, trying a new Hamiltonian but the hypothesized bridge is still valid mathematically until further notice)
 
 
 
